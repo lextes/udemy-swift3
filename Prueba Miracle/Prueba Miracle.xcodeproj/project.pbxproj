@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		848A8FEC1E1F461800020CC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848A8FEB1E1F461800020CC4 /* AppDelegate.swift */; };
+		848A8FEE1E1F461800020CC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848A8FED1E1F461800020CC4 /* ViewController.swift */; };
+		848A8FF11E1F461800020CC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848A8FEF1E1F461800020CC4 /* Main.storyboard */; };
+		848A8FF31E1F461800020CC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848A8FF21E1F461800020CC4 /* Assets.xcassets */; };
+		848A8FF61E1F461800020CC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 848A8FF41E1F461800020CC4 /* LaunchScreen.storyboard */; };
+		848A90011E1F461800020CC4 /* Prueba_MiracleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848A90001E1F461800020CC4 /* Prueba_MiracleTests.swift */; };
+		848A900C1E1F461800020CC4 /* Prueba_MiracleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848A900B1E1F461800020CC4 /* Prueba_MiracleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		848A8FFD1E1F461800020CC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 848A8FE01E1F461700020CC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 848A8FE71E1F461700020CC4;
+			remoteInfo = "Prueba Miracle";
+		};
+		848A90081E1F461800020CC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 848A8FE01E1F461700020CC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 848A8FE71E1F461700020CC4;
+			remoteInfo = "Prueba Miracle";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		848A8FE81E1F461700020CC4 /* Prueba Miracle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prueba Miracle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		848A8FEB1E1F461800020CC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		848A8FED1E1F461800020CC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		848A8FF01E1F461800020CC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		848A8FF21E1F461800020CC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		848A8FF51E1F461800020CC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		848A8FF71E1F461800020CC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848A8FFC1E1F461800020CC4 /* Prueba MiracleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prueba MiracleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		848A90001E1F461800020CC4 /* Prueba_MiracleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prueba_MiracleTests.swift; sourceTree = "<group>"; };
+		848A90021E1F461800020CC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		848A90071E1F461800020CC4 /* Prueba MiracleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prueba MiracleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		848A900B1E1F461800020CC4 /* Prueba_MiracleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prueba_MiracleUITests.swift; sourceTree = "<group>"; };
+		848A900D1E1F461800020CC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		848A8FE51E1F461700020CC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848A8FF91E1F461800020CC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848A90041E1F461800020CC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		848A8FDF1E1F461700020CC4 = {
+			isa = PBXGroup;
+			children = (
+				848A8FEA1E1F461700020CC4 /* Prueba Miracle */,
+				848A8FFF1E1F461800020CC4 /* Prueba MiracleTests */,
+				848A900A1E1F461800020CC4 /* Prueba MiracleUITests */,
+				848A8FE91E1F461700020CC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		848A8FE91E1F461700020CC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				848A8FE81E1F461700020CC4 /* Prueba Miracle.app */,
+				848A8FFC1E1F461800020CC4 /* Prueba MiracleTests.xctest */,
+				848A90071E1F461800020CC4 /* Prueba MiracleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		848A8FEA1E1F461700020CC4 /* Prueba Miracle */ = {
+			isa = PBXGroup;
+			children = (
+				848A8FEB1E1F461800020CC4 /* AppDelegate.swift */,
+				848A8FED1E1F461800020CC4 /* ViewController.swift */,
+				848A8FEF1E1F461800020CC4 /* Main.storyboard */,
+				848A8FF21E1F461800020CC4 /* Assets.xcassets */,
+				848A8FF41E1F461800020CC4 /* LaunchScreen.storyboard */,
+				848A8FF71E1F461800020CC4 /* Info.plist */,
+			);
+			path = "Prueba Miracle";
+			sourceTree = "<group>";
+		};
+		848A8FFF1E1F461800020CC4 /* Prueba MiracleTests */ = {
+			isa = PBXGroup;
+			children = (
+				848A90001E1F461800020CC4 /* Prueba_MiracleTests.swift */,
+				848A90021E1F461800020CC4 /* Info.plist */,
+			);
+			path = "Prueba MiracleTests";
+			sourceTree = "<group>";
+		};
+		848A900A1E1F461800020CC4 /* Prueba MiracleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				848A900B1E1F461800020CC4 /* Prueba_MiracleUITests.swift */,
+				848A900D1E1F461800020CC4 /* Info.plist */,
+			);
+			path = "Prueba MiracleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		848A8FE71E1F461700020CC4 /* Prueba Miracle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848A90101E1F461800020CC4 /* Build configuration list for PBXNativeTarget "Prueba Miracle" */;
+			buildPhases = (
+				848A8FE41E1F461700020CC4 /* Sources */,
+				848A8FE51E1F461700020CC4 /* Frameworks */,
+				848A8FE61E1F461700020CC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Prueba Miracle";
+			productName = "Prueba Miracle";
+			productReference = 848A8FE81E1F461700020CC4 /* Prueba Miracle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		848A8FFB1E1F461800020CC4 /* Prueba MiracleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848A90131E1F461800020CC4 /* Build configuration list for PBXNativeTarget "Prueba MiracleTests" */;
+			buildPhases = (
+				848A8FF81E1F461800020CC4 /* Sources */,
+				848A8FF91E1F461800020CC4 /* Frameworks */,
+				848A8FFA1E1F461800020CC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				848A8FFE1E1F461800020CC4 /* PBXTargetDependency */,
+			);
+			name = "Prueba MiracleTests";
+			productName = "Prueba MiracleTests";
+			productReference = 848A8FFC1E1F461800020CC4 /* Prueba MiracleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		848A90061E1F461800020CC4 /* Prueba MiracleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848A90161E1F461800020CC4 /* Build configuration list for PBXNativeTarget "Prueba MiracleUITests" */;
+			buildPhases = (
+				848A90031E1F461800020CC4 /* Sources */,
+				848A90041E1F461800020CC4 /* Frameworks */,
+				848A90051E1F461800020CC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				848A90091E1F461800020CC4 /* PBXTargetDependency */,
+			);
+			name = "Prueba MiracleUITests";
+			productName = "Prueba MiracleUITests";
+			productReference = 848A90071E1F461800020CC4 /* Prueba MiracleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		848A8FE01E1F461700020CC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Desarrollo App Wexford";
+				TargetAttributes = {
+					848A8FE71E1F461700020CC4 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 8XA58BLP47;
+						ProvisioningStyle = Automatic;
+					};
+					848A8FFB1E1F461800020CC4 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 8XA58BLP47;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 848A8FE71E1F461700020CC4;
+					};
+					848A90061E1F461800020CC4 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 8XA58BLP47;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 848A8FE71E1F461700020CC4;
+					};
+				};
+			};
+			buildConfigurationList = 848A8FE31E1F461700020CC4 /* Build configuration list for PBXProject "Prueba Miracle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 848A8FDF1E1F461700020CC4;
+			productRefGroup = 848A8FE91E1F461700020CC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				848A8FE71E1F461700020CC4 /* Prueba Miracle */,
+				848A8FFB1E1F461800020CC4 /* Prueba MiracleTests */,
+				848A90061E1F461800020CC4 /* Prueba MiracleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		848A8FE61E1F461700020CC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848A8FF61E1F461800020CC4 /* LaunchScreen.storyboard in Resources */,
+				848A8FF31E1F461800020CC4 /* Assets.xcassets in Resources */,
+				848A8FF11E1F461800020CC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848A8FFA1E1F461800020CC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848A90051E1F461800020CC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		848A8FE41E1F461700020CC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848A8FEE1E1F461800020CC4 /* ViewController.swift in Sources */,
+				848A8FEC1E1F461800020CC4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848A8FF81E1F461800020CC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848A90011E1F461800020CC4 /* Prueba_MiracleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848A90031E1F461800020CC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848A900C1E1F461800020CC4 /* Prueba_MiracleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		848A8FFE1E1F461800020CC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 848A8FE71E1F461700020CC4 /* Prueba Miracle */;
+			targetProxy = 848A8FFD1E1F461800020CC4 /* PBXContainerItemProxy */;
+		};
+		848A90091E1F461800020CC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 848A8FE71E1F461700020CC4 /* Prueba Miracle */;
+			targetProxy = 848A90081E1F461800020CC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		848A8FEF1E1F461800020CC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				848A8FF01E1F461800020CC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		848A8FF41E1F461800020CC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				848A8FF51E1F461800020CC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		848A900E1E1F461800020CC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		848A900F1E1F461800020CC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		848A90111E1F461800020CC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8XA58BLP47;
+				INFOPLIST_FILE = "Prueba Miracle/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wexford.Prueba-Miracle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		848A90121E1F461800020CC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8XA58BLP47;
+				INFOPLIST_FILE = "Prueba Miracle/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wexford.Prueba-Miracle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		848A90141E1F461800020CC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8XA58BLP47;
+				INFOPLIST_FILE = "Prueba MiracleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wexford.Prueba-MiracleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prueba Miracle.app/Prueba Miracle";
+			};
+			name = Debug;
+		};
+		848A90151E1F461800020CC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8XA58BLP47;
+				INFOPLIST_FILE = "Prueba MiracleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wexford.Prueba-MiracleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Prueba Miracle.app/Prueba Miracle";
+			};
+			name = Release;
+		};
+		848A90171E1F461800020CC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8XA58BLP47;
+				INFOPLIST_FILE = "Prueba MiracleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wexford.Prueba-MiracleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Prueba Miracle";
+			};
+			name = Debug;
+		};
+		848A90181E1F461800020CC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8XA58BLP47;
+				INFOPLIST_FILE = "Prueba MiracleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wexford.Prueba-MiracleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Prueba Miracle";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		848A8FE31E1F461700020CC4 /* Build configuration list for PBXProject "Prueba Miracle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848A900E1E1F461800020CC4 /* Debug */,
+				848A900F1E1F461800020CC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848A90101E1F461800020CC4 /* Build configuration list for PBXNativeTarget "Prueba Miracle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848A90111E1F461800020CC4 /* Debug */,
+				848A90121E1F461800020CC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848A90131E1F461800020CC4 /* Build configuration list for PBXNativeTarget "Prueba MiracleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848A90141E1F461800020CC4 /* Debug */,
+				848A90151E1F461800020CC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848A90161E1F461800020CC4 /* Build configuration list for PBXNativeTarget "Prueba MiracleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848A90171E1F461800020CC4 /* Debug */,
+				848A90181E1F461800020CC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 848A8FE01E1F461700020CC4 /* Project object */;
+}
