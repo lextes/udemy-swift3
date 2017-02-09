@@ -172,7 +172,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Icq-pT-G7x" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2916" y="53"/>
+            <point key="canvasLocation" x="2916" y="-54"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="x36-kE-Wrm">
@@ -204,7 +204,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7OI-Vb-a2x" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3730" y="53"/>
+            <point key="canvasLocation" x="3730" y="-54"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Cc0-iO-1ka">
@@ -258,7 +258,6 @@
         <!--View Controller-->
         <scene sceneID="haX-c3-eXh">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="IMi-6O-JXZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="xf4-zZ-Tbx" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="uMj-rZ-G1C"/>
@@ -301,13 +300,13 @@
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IMi-6O-JXZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2753" y="1825"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="LC6-fX-d4I">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="eDI-Lg-f81" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="ax7-ES-NX6" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Hju-Nr-r4p"/>
@@ -350,13 +349,13 @@
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eDI-Lg-f81" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3552" y="1826"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="jhn-gh-1PU">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="exz-TN-9OL" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="4eA-1p-BC0" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="BSL-dD-gZY"/>
@@ -399,13 +398,13 @@
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="exz-TN-9OL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4371" y="1826"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="RNz-Yk-C87">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4N0-U7-WVN" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="dFV-kq-J6o" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hO4-me-Y5c"/>
@@ -430,6 +429,7 @@
                         </subviews>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4N0-U7-WVN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5229" y="1826"/>
         </scene>
@@ -740,7 +740,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t1g-FL-OJb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4562.5" y="52.734375"/>
+            <point key="canvasLocation" x="4563" y="-54"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="fXd-gc-c15">
@@ -934,10 +934,10 @@
             </objects>
             <point key="canvasLocation" x="4265" y="-1554"/>
         </scene>
-        <!--View Controller-->
+        <!--Draw-->
         <scene sceneID="T6T-nm-yyE">
             <objects>
-                <viewController id="vX6-Cc-rGb" sceneMemberID="viewController">
+                <viewController id="vX6-Cc-rGb" customClass="Draw" customModule="Unit1FirstGrade" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="h6n-Jm-iMm"/>
                         <viewControllerLayoutGuide type="bottom" id="S1U-Dn-168"/>
@@ -958,13 +958,157 @@
                                     <segue destination="uVG-96-Bex" kind="show" id="uyM-n7-M6s"/>
                                 </connections>
                             </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" alignment="top" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="bU2-l2-gGH">
+                                <rect key="frame" x="88" y="816" width="489" height="143"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleAspectFit" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pxx-fT-ZP5">
+                                        <rect key="frame" x="0.0" y="0.0" width="48" height="143"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="143" id="EXs-Of-Cds"/>
+                                            <constraint firstAttribute="width" constant="48" id="eBS-Jo-JUo"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" image="red"/>
+                                        <connections>
+                                            <action selector="colorsPicked:" destination="vX6-Cc-rGb" eventType="touchUpInside" id="bQC-NU-i21"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1" contentMode="scaleAspectFit" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GFZ-Qk-jvr">
+                                        <rect key="frame" x="63" y="0.0" width="48" height="143"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="48" id="aLm-lx-VHd"/>
+                                            <constraint firstAttribute="height" constant="143" id="zLP-sx-Ojf"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" image="green"/>
+                                        <connections>
+                                            <action selector="colorsPicked:" destination="vX6-Cc-rGb" eventType="touchUpInside" id="aFo-Dn-ULU"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleAspectFit" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2aW-ih-iES">
+                                        <rect key="frame" x="126" y="0.0" width="48" height="143"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="48" id="WIA-lX-DjE"/>
+                                            <constraint firstAttribute="height" constant="143" id="jtg-Xo-4TH"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" image="blue"/>
+                                        <connections>
+                                            <action selector="colorsPicked:" destination="vX6-Cc-rGb" eventType="touchUpInside" id="uGu-k9-QEI"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="3" contentMode="scaleAspectFit" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LN8-Hm-7Sb">
+                                        <rect key="frame" x="189" y="0.0" width="48" height="143"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="143" id="5dS-Gb-UVH"/>
+                                            <constraint firstAttribute="width" constant="48" id="g2h-pw-94z"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" image="pink"/>
+                                        <connections>
+                                            <action selector="colorsPicked:" destination="vX6-Cc-rGb" eventType="touchUpInside" id="1NE-aC-mDy"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="4" contentMode="scaleAspectFit" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bwg-Je-54Z">
+                                        <rect key="frame" x="252" y="0.0" width="48" height="143"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="48" id="OTX-ox-bSS"/>
+                                            <constraint firstAttribute="height" constant="143" id="wWE-Iv-H7Q"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" image="yellow"/>
+                                        <connections>
+                                            <action selector="colorsPicked:" destination="vX6-Cc-rGb" eventType="touchUpInside" id="bc2-Eq-xlU"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="5" contentMode="scaleAspectFit" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kWT-uM-6sa">
+                                        <rect key="frame" x="315" y="0.0" width="48" height="143"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="48" id="SxO-hH-BAy"/>
+                                            <constraint firstAttribute="height" constant="143" id="uiQ-3W-E8G"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" image="teal"/>
+                                        <connections>
+                                            <action selector="colorsPicked:" destination="vX6-Cc-rGb" eventType="touchUpInside" id="MEu-Nu-Z4x"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="6" contentMode="scaleAspectFit" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UpX-im-Lqe">
+                                        <rect key="frame" x="378" y="0.0" width="48" height="143"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="143" id="EKf-44-eXc"/>
+                                            <constraint firstAttribute="width" constant="48" id="z6p-Ia-2pM"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" image="white"/>
+                                        <connections>
+                                            <action selector="colorsPicked:" destination="vX6-Cc-rGb" eventType="touchUpInside" id="qil-QT-IjU"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="7" contentMode="scaleAspectFit" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SKT-0G-2y1">
+                                        <rect key="frame" x="441" y="0.0" width="48" height="143"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="48" id="2tG-Wv-rdh"/>
+                                            <constraint firstAttribute="height" constant="143" id="vaG-p0-eSz"/>
+                                        </constraints>
+                                        <state key="normal" title="Button" image="black"/>
+                                        <connections>
+                                            <action selector="colorsPicked:" destination="vX6-Cc-rGb" eventType="touchUpInside" id="sch-b9-PjL"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" alignment="top" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="bHI-fr-aGb">
+                                <rect key="frame" x="189" y="242" width="390" height="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Mk-FP-Kz2">
+                                        <rect key="frame" x="0.0" y="0.0" width="60" height="53"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="53" id="35A-Xd-qRT"/>
+                                            <constraint firstAttribute="width" constant="60" id="8dW-g8-snQ"/>
+                                        </constraints>
+                                        <state key="normal" image="ResetIcon"/>
+                                        <connections>
+                                            <action selector="reset:" destination="vX6-Cc-rGb" eventType="touchUpInside" id="Q3L-Jf-IBD"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="agw-aq-WP7">
+                                        <rect key="frame" x="110" y="0.0" width="60" height="53"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="P0k-YX-AUf"/>
+                                            <constraint firstAttribute="height" constant="53" id="YlC-my-80f"/>
+                                        </constraints>
+                                        <state key="normal" image="Saveicon"/>
+                                        <connections>
+                                            <action selector="save:" destination="vX6-Cc-rGb" eventType="touchUpInside" id="tph-5m-yLz"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VV4-kk-S7F">
+                                        <rect key="frame" x="220" y="0.0" width="60" height="53"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="2r1-Dz-wyD"/>
+                                            <constraint firstAttribute="height" constant="53" id="BFZ-9p-GPx"/>
+                                        </constraints>
+                                        <state key="normal" image="EraserIcon"/>
+                                        <connections>
+                                            <action selector="erase:" destination="vX6-Cc-rGb" eventType="touchUpInside" id="QeM-ip-9N7"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2dF-jB-9VW">
+                                        <rect key="frame" x="330" y="0.0" width="60" height="53"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="60" id="3gE-FL-w01"/>
+                                            <constraint firstAttribute="height" constant="53" id="KY2-v5-uaa"/>
+                                        </constraints>
+                                        <state key="normal" image="Gear"/>
+                                        <connections>
+                                            <action selector="settings:" destination="vX6-Cc-rGb" eventType="touchUpInside" id="LRA-Jc-ZTL"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cZw-Ps-qDY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4947" y="-1554"/>
+            <point key="canvasLocation" x="4953" y="-1554"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="7yt-Nl-sRy">
@@ -1033,7 +1177,6 @@
         <!--View Controller-->
         <scene sceneID="rq9-4h-FyO">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="P0Z-ZN-pVB" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="TCV-4X-wIN" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="keK-Gx-Rca"/>
@@ -1076,13 +1219,13 @@
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P0Z-ZN-pVB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2753" y="3360"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="D7w-g3-Mlz">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="uPf-d2-my8" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="yra-kw-igw" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ah7-Jj-b7c"/>
@@ -1125,13 +1268,13 @@
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uPf-d2-my8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3498" y="3362"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="DEY-J7-nkn">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="car-Q7-gGv" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="Btr-9t-4zQ" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="1aj-w3-jKl"/>
@@ -1174,13 +1317,13 @@
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="car-Q7-gGv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4365" y="3362"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="cGG-hT-EXO">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dwb-mW-HEk" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="omN-Ti-dza" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4xQ-vC-dNO"/>
@@ -1223,13 +1366,13 @@
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dwb-mW-HEk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5180" y="3362"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="VMc-f9-LjH">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lqp-0k-Hh4" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="1Cf-81-JMx" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="DXX-UA-FD8"/>
@@ -1272,13 +1415,13 @@
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lqp-0k-Hh4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5991" y="3362"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="KHk-Wu-0qF">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zRi-3l-NFo" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="xeB-Au-XQt" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="g0w-Vj-mNK"/>
@@ -1303,13 +1446,13 @@
                         </subviews>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zRi-3l-NFo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="6824" y="3362"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="JfB-ea-cGB">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="sNg-9A-cVd" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="csy-KV-fmX" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="idI-i3-Jcb"/>
@@ -1352,13 +1495,13 @@
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sNg-9A-cVd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2753" y="2572"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tcd-V4-gJk">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tVh-OF-phc" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="lIg-Xq-pIs" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bMD-2T-IN8"/>
@@ -1401,13 +1544,13 @@
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tVh-OF-phc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3540" y="2573"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="fXt-1d-Kiu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="rEj-Tp-3Zs" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="xQl-RM-eOL" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="yhX-CW-pXM"/>
@@ -1450,13 +1593,13 @@
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rEj-Tp-3Zs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4354" y="2573"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="jLs-qj-EFg">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="uuq-lf-qEi" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="XsY-xt-EN6" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="AG8-Ag-kbS"/>
@@ -1482,13 +1625,13 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uuq-lf-qEi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5236" y="2573"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="KEb-oh-qJf">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zOd-y3-Llk" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="EHq-IH-hYh" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="XKZ-DW-iDF"/>
@@ -1523,13 +1666,13 @@
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zOd-y3-Llk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2757" y="4107"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Cx5-mw-1ix">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="RZc-Ji-2lY" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="0ai-cP-hqQ" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jDl-Vr-FBG"/>
@@ -1572,13 +1715,13 @@
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RZc-Ji-2lY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3498" y="4108"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Y95-x0-anR">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3iq-pQ-fbM" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="kyE-Ui-clV" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="GwT-IL-Iua"/>
@@ -1604,6 +1747,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3iq-pQ-fbM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4339" y="4108"/>
         </scene>
@@ -2228,7 +2372,6 @@
         <!--View Controller-->
         <scene sceneID="BI2-uk-D1f">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jIS-Ta-iAL" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="0TE-5t-mJk" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dfR-Df-yAm"/>
@@ -2298,6 +2441,7 @@
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jIS-Ta-iAL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1916" y="-630"/>
         </scene>
@@ -2531,10 +2675,18 @@
         </scene>
     </scenes>
     <resources>
+        <image name="EraserIcon" width="418" height="418"/>
+        <image name="Gear" width="411" height="411"/>
+        <image name="ResetIcon" width="416" height="415"/>
+        <image name="Saveicon" width="407" height="407"/>
+        <image name="black" width="119" height="454"/>
+        <image name="blue" width="120" height="456"/>
         <image name="flechaBACK" width="484" height="336"/>
         <image name="flechaFORW" width="484" height="336"/>
         <image name="fondoFinleccion" width="539" height="693"/>
         <image name="fondo_principal" width="1470" height="1890"/>
+        <image name="green" width="119" height="455"/>
+        <image name="pink" width="119" height="455"/>
         <image name="prueba_test1" width="546" height="713"/>
         <image name="prueba_test10" width="555" height="733"/>
         <image name="prueba_test2" width="546" height="713"/>
@@ -2545,12 +2697,16 @@
         <image name="prueba_test7" width="555" height="732"/>
         <image name="prueba_test8" width="556" height="732"/>
         <image name="prueba_test9" width="556" height="732"/>
+        <image name="red" width="120" height="456"/>
+        <image name="teal" width="120" height="461"/>
+        <image name="white" width="118" height="458"/>
+        <image name="yellow" width="120" height="455"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="wf1-Th-2Pl"/>
+        <segue reference="Yap-5n-ufr"/>
         <segue reference="lVh-re-lkK"/>
         <segue reference="8bs-Oz-ujU"/>
-        <segue reference="Qts-1R-sAC"/>
-        <segue reference="Yap-5n-ufr"/>
+        <segue reference="wf1-Th-2Pl"/>
+        <segue reference="GKX-Wf-zsp"/>
     </inferredMetricsTieBreakers>
 </document>
