@@ -9,15 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet weak var WebView: UIWebView!
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        var URL = NSURL(string: "http://www.archetapp.com")
-        WebView.loadRequest(NSURL)
-    }
+        }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
