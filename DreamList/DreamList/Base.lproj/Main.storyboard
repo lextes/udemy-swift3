@@ -38,32 +38,23 @@
                                 <rect key="frame" x="16" y="132" width="343" height="535"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="146" id="j0I-DF-gTh">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="146" id="j0I-DF-gTh" customClass="itemCell" customModule="DreamList" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="343" height="146"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="j0I-DF-gTh" id="IUW-r4-10S">
-                                            <rect key="frame" x="0.0" y="0.0" width="343" height="145"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="343" height="146"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dq8-bq-vex">
                                                     <rect key="frame" x="8" y="9" width="327" height="128"/>
                                                     <subviews>
-                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7hd-dR-6kv">
-                                                            <rect key="frame" x="8" y="15" width="95" height="99"/>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tesla.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="7hd-dR-6kv">
+                                                            <rect key="frame" x="8" y="15.5" width="95" height="99"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="95" id="OoO-Be-HAU"/>
                                                                 <constraint firstAttribute="height" constant="99" id="gYk-Ek-fVP"/>
                                                             </constraints>
                                                         </imageView>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tesla Model S" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W1f-I6-DAM">
-                                                            <rect key="frame" x="111" y="8" width="208" height="21"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="height" constant="21" id="8jG-St-Wpd"/>
-                                                            </constraints>
-                                                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
-                                                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$  80,000" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MOK-3D-fAT">
                                                             <rect key="frame" x="111" y="37" width="208" height="21"/>
                                                             <constraints>
@@ -72,10 +63,22 @@
                                                             <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                                             <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                             <nil key="highlightedColor"/>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="boolean" keyPath="materialDesign" value="YES"/>
+                                                            </userDefinedRuntimeAttributes>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Excelent car for my weekend, vacations and pick up girls of diferent age" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Ty-lo-Fjt">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Excelent car for weekends, vacations or pick up beatiful girls of diferent age" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Ty-lo-Fjt">
                                                             <rect key="frame" x="111" y="66" width="208" height="49"/>
                                                             <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="14"/>
+                                                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tesla Model S" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W1f-I6-DAM">
+                                                            <rect key="frame" x="111" y="8" width="208" height="21"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="21" id="8jG-St-Wpd"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
                                                             <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
@@ -97,7 +100,7 @@
                                                     </constraints>
                                                 </view>
                                             </subviews>
-                                            <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                             <constraints>
                                                 <constraint firstItem="dq8-bq-vex" firstAttribute="trailing" secondItem="IUW-r4-10S" secondAttribute="trailingMargin" id="Jg0-pc-hkx"/>
                                                 <constraint firstItem="dq8-bq-vex" firstAttribute="top" secondItem="IUW-r4-10S" secondAttribute="topMargin" id="NSX-nh-g85"/>
@@ -105,6 +108,13 @@
                                                 <constraint firstItem="dq8-bq-vex" firstAttribute="bottom" secondItem="IUW-r4-10S" secondAttribute="bottomMargin" id="uRW-uG-dBe"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <outlet property="details" destination="8Ty-lo-Fjt" id="Yua-tv-U0j"/>
+                                            <outlet property="price" destination="MOK-3D-fAT" id="0mR-HT-adG"/>
+                                            <outlet property="thumb" destination="7hd-dR-6kv" id="px2-0w-tSZ"/>
+                                            <outlet property="title" destination="W1f-I6-DAM" id="YRT-Tq-mhd"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -125,17 +135,21 @@
                             <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="segment" destination="1X5-D6-Epi" id="4Yb-z6-Zwy"/>
+                        <outlet property="tableView" destination="yOj-Gb-SjE" id="z4K-D0-cmE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1056.8" y="122.78860569715144"/>
+            <point key="canvasLocation" x="826" y="123"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="S6G-fD-4zW">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Wuo-C6-UiL" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="mDn-9n-dMk">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="mDn-9n-dMk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="0.89404573759999995" green="1" blue="0.79378723880000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -153,4 +167,7 @@
             <point key="canvasLocation" x="81" y="123"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="tesla.jpg" width="800" height="489"/>
+    </resources>
 </document>
