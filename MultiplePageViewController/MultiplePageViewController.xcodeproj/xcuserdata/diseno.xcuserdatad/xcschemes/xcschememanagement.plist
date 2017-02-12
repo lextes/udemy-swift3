@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>ViewControllersContainment.xcscheme</key>
+		<key>MultiplePageViewController.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>845EF4991E4E4D7D0079C8C8</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>845EF4AD1E4E4D7D0079C8C8</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>845EF4B81E4E4D7D0079C8C8</key>
+		<key>84E02C1E1E50279D006C3044</key>
 		<dict>
 			<key>primary</key>
 			<true/>

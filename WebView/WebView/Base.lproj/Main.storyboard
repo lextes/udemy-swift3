@@ -401,7 +401,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Zy-nX-k5j">
                                 <rect key="frame" x="293" y="931" width="182" height="114"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="flechaFORW"/>
+                                <state key="normal" image="flechaFORW"/>
                                 <connections>
                                     <segue destination="1gM-8s-jhD" kind="show" id="lZm-eH-Fzt"/>
                                 </connections>
@@ -510,10 +510,10 @@
             </objects>
             <point key="canvasLocation" x="4013" y="-2163"/>
         </scene>
-        <!--View Controller-->
+        <!--Draw View Controller-->
         <scene sceneID="yOa-tX-N7U">
             <objects>
-                <viewController id="1gM-8s-jhD" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DrawViewController" id="1gM-8s-jhD" customClass="DrawViewController" customModule="WebView" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="AuN-Ma-Fh8"/>
                         <viewControllerLayoutGuide type="bottom" id="0ig-bd-pwl"/>
@@ -523,64 +523,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="prueba_test4" translatesAutoresizingMaskIntoConstraints="NO" id="UDB-XU-NKm">
-                                <rect key="frame" x="-19" y="-15" width="807" height="1055"/>
+                                <rect key="frame" x="-19" y="-15" width="807" height="1062"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8z4-nD-uzo">
-                                <rect key="frame" x="289" y="908" width="191" height="132"/>
+                                <rect key="frame" x="504" y="908" width="191" height="132"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
                                     <segue destination="oxy-aR-ORp" kind="show" id="Xe5-ff-Kde"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MKN-eR-JMz">
-                                <rect key="frame" x="90" y="812" width="36" height="131"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="red"/>
-                            </button>
-                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yUM-LQ-MaD">
-                                <rect key="frame" x="150" y="812" width="36" height="131"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="green"/>
-                            </button>
-                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fhj-OH-5HF">
-                                <rect key="frame" x="212" y="811" width="36" height="131"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="blue"/>
-                            </button>
-                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EQD-BU-AWQ">
-                                <rect key="frame" x="272" y="812" width="36" height="131"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="pink"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GNN-DT-anH">
-                                <rect key="frame" x="388" y="812" width="36" height="131"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="teal"/>
-                                <connections>
-                                    <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="kcF-DR-5ar"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jg3-CN-afx">
-                                <rect key="frame" x="332" y="811" width="36" height="131"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="yellow"/>
-                            </button>
-                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wgl-iW-UQg">
-                                <rect key="frame" x="444" y="812" width="36" height="131"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="white"/>
-                                <connections>
-                                    <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="F2u-Xc-Wbg"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IAZ-3K-xVs">
-                                <rect key="frame" x="504" y="812" width="36" height="131"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="black"/>
-                                <connections>
-                                    <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="bqD-fM-7iv"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Whv-Gg-Ezh">
@@ -598,26 +549,85 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="EraserIcon"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mw3-J5-AzZ">
-                                <rect key="frame" x="504" y="231" width="71" height="63"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MKN-eR-JMz">
+                                <rect key="frame" x="79" y="893" width="36" height="131"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="Gear"/>
+                                <state key="normal" title="Button" image="red"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="Ic6-Zy-4Gl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yUM-LQ-MaD">
+                                <rect key="frame" x="129" y="893" width="36" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="green"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="d4B-Oj-uws"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fhj-OH-5HF">
+                                <rect key="frame" x="181" y="892" width="36" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="blue"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="dg3-rh-1Il"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EQD-BU-AWQ">
+                                <rect key="frame" x="231" y="893" width="36" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="pink"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="cQc-dz-X4R"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GNN-DT-anH">
+                                <rect key="frame" x="327" y="893" width="36" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="teal"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="OM9-2D-gdJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jg3-CN-afx">
+                                <rect key="frame" x="281" y="892" width="36" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="yellow"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="6Oq-fZ-b3Z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wgl-iW-UQg">
+                                <rect key="frame" x="373" y="893" width="36" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="white"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="xrq-lb-KJN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IAZ-3K-xVs">
+                                <rect key="frame" x="423" y="893" width="36" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="black"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="Ncd-fB-LCQ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="imageView" destination="UDB-XU-NKm" id="U2E-oA-ZzD"/>
+                        <outlet property="imageView" destination="UDB-XU-NKm" id="dZT-0f-CIA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zlh-Ke-7w3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4680.46875" y="-2163.28125"/>
         </scene>
-        <!--View Controller-->
+        <!--Draw View Controller-->
         <scene sceneID="Q7X-8f-cQz">
             <objects>
-                <viewController id="oxy-aR-ORp" sceneMemberID="viewController">
+                <viewController id="oxy-aR-ORp" customClass="DrawViewController" customModule="WebView" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="uOk-GN-uOz"/>
                         <viewControllerLayoutGuide type="bottom" id="1f7-Li-f55"/>
@@ -630,32 +640,92 @@
                                 <rect key="frame" x="-19" y="-15" width="807" height="1059"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j48-MN-c90">
+                                <rect key="frame" x="95" y="893" width="36" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="red"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="gky-Hb-sBd"/>
+                                    <action selector="colorsPicked:" destination="oxy-aR-ORp" eventType="touchUpInside" id="sbL-6X-PnD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dkW-kB-tHK">
+                                <rect key="frame" x="145" y="893" width="36" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="green"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="8oA-5P-tqZ"/>
+                                    <action selector="colorsPicked:" destination="oxy-aR-ORp" eventType="touchUpInside" id="U1v-Sl-xZD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zpP-5q-Wmh">
+                                <rect key="frame" x="197" y="892" width="36" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="blue"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="oxy-aR-ORp" eventType="touchUpInside" id="Bry-G4-Qg4"/>
+                                    <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="Xku-9W-nQU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FBR-vh-QCm">
+                                <rect key="frame" x="247" y="893" width="36" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="pink"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="BVp-Y7-tLV"/>
+                                    <action selector="colorsPicked:" destination="oxy-aR-ORp" eventType="touchUpInside" id="L3a-dW-GCX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Etv-eX-Kzi">
+                                <rect key="frame" x="343" y="893" width="36" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="teal"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="8gw-td-fiW"/>
+                                    <action selector="colorsPicked:" destination="oxy-aR-ORp" eventType="touchUpInside" id="zdu-ha-GCH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="drp-3o-IdV">
+                                <rect key="frame" x="297" y="892" width="36" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="yellow"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="oxy-aR-ORp" eventType="touchUpInside" id="29H-3u-joF"/>
+                                    <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="rgj-0y-k5v"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1bq-Yq-Pos">
+                                <rect key="frame" x="389" y="893" width="36" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="white"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="oxy-aR-ORp" eventType="touchUpInside" id="OuU-GA-M45"/>
+                                    <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="sDC-Rq-lOG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K8v-ik-ywg">
+                                <rect key="frame" x="439" y="893" width="36" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="black"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="oxy-aR-ORp" eventType="touchUpInside" id="NWg-Jo-OaX"/>
+                                    <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="Te8-2o-pkQ"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pni-jf-G97">
-                                <rect key="frame" x="289" y="908" width="191" height="132"/>
+                                <rect key="frame" x="525" y="912" width="191" height="132"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
                                     <segue destination="IvH-6C-VfC" kind="show" id="EAh-BR-7WS"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lhe-K7-xwZ">
-                                <rect key="frame" x="115" y="920" width="29" height="104"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="red"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Rl-SH-mIi">
-                                <rect key="frame" x="166" y="920" width="29" height="104"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="blue"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0MX-X1-M0h">
-                                <rect key="frame" x="216" y="920" width="29" height="104"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="yellow"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="Jb9-Hb-BYc" id="vbf-J5-wnD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bC6-rS-JPe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -701,7 +771,7 @@
                         <viewControllerLayoutGuide type="top" id="ZbD-mY-hBS"/>
                         <viewControllerLayoutGuide type="bottom" id="18a-K8-VR3"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="VLf-Lo-kAd">
+                    <view key="view" contentMode="scaleToFill" id="VLf-Lo-kAd" colorLabel="IBBuiltInLabel-Orange">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -796,10 +866,10 @@
             </objects>
             <point key="canvasLocation" x="842" y="159"/>
         </scene>
-        <!--View Controller-->
+        <!--Draw View Controller-->
         <scene sceneID="Gjd-E6-z4y">
             <objects>
-                <viewController id="myO-lp-Fcf" sceneMemberID="viewController">
+                <viewController id="myO-lp-Fcf" customClass="DrawViewController" customModule="WebView" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="tRW-W5-i6s"/>
                         <viewControllerLayoutGuide type="bottom" id="4Cz-ZA-Rez"/>
@@ -812,8 +882,80 @@
                                 <rect key="frame" x="-36" y="-40" width="824" height="1085"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GJt-hU-VNL">
+                                <rect key="frame" x="63" y="893" width="36" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="red"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="1H8-N5-GTH"/>
+                                    <action selector="colorsPicked:" destination="myO-lp-Fcf" eventType="touchUpInside" id="C2k-IM-pna"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VuE-mB-eDv">
+                                <rect key="frame" x="113" y="893" width="36" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="green"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="myO-lp-Fcf" eventType="touchUpInside" id="IkR-zl-YXx"/>
+                                    <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="kfV-sU-SHl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vlX-5x-HeP">
+                                <rect key="frame" x="165" y="892" width="36" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="blue"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="myO-lp-Fcf" eventType="touchUpInside" id="5mO-Wy-kTG"/>
+                                    <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="yKp-n2-61P"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TOL-w3-sYV">
+                                <rect key="frame" x="215" y="893" width="36" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="pink"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="0d0-cd-IuP"/>
+                                    <action selector="colorsPicked:" destination="myO-lp-Fcf" eventType="touchUpInside" id="DOd-zb-CZT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C8a-Yt-908">
+                                <rect key="frame" x="311" y="893" width="36" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="teal"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="KWL-Ze-8dL"/>
+                                    <action selector="colorsPicked:" destination="myO-lp-Fcf" eventType="touchUpInside" id="hUY-hN-Zjj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4mI-9L-mox">
+                                <rect key="frame" x="265" y="892" width="36" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="yellow"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="myO-lp-Fcf" eventType="touchUpInside" id="dS2-yM-4nQ"/>
+                                    <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="w7O-pd-pO8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="94F-nf-k0t">
+                                <rect key="frame" x="357" y="893" width="36" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="white"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="myO-lp-Fcf" eventType="touchUpInside" id="BZ6-Bn-tIs"/>
+                                    <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="FTX-Wq-6ZQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FDb-Nj-iBk">
+                                <rect key="frame" x="407" y="893" width="36" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="black"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="myO-lp-Fcf" eventType="touchUpInside" id="1zD-Ky-N0X"/>
+                                    <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="Nt2-ec-qaO"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OrW-6e-d8W">
-                                <rect key="frame" x="289" y="913" width="191" height="132"/>
+                                <rect key="frame" x="507" y="905" width="191" height="132"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
@@ -822,14 +964,12 @@
                                     </segue>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dfs-Td-VJE">
-                                <rect key="frame" x="207" y="920" width="29" height="104"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="black"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="l58-oH-FJy" id="Zbj-Y2-5rs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LH5-mB-hvr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -869,10 +1009,10 @@
             </objects>
             <point key="canvasLocation" x="3311.71875" y="-1479.4921875"/>
         </scene>
-        <!--View Controller-->
+        <!--Draw View Controller-->
         <scene sceneID="woG-Sf-vuV">
             <objects>
-                <viewController id="DAf-VD-JiH" sceneMemberID="viewController">
+                <viewController id="DAf-VD-JiH" customClass="DrawViewController" customModule="WebView" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="NnJ-xz-McT"/>
                         <viewControllerLayoutGuide type="bottom" id="ego-zq-2vi"/>
@@ -887,21 +1027,91 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dwV-rl-UP6">
-                                <rect key="frame" x="293" y="931" width="182" height="114"/>
+                                <rect key="frame" x="521" y="931" width="182" height="114"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="flechaFORW"/>
                                 <connections>
                                     <segue destination="ckx-IK-tIM" kind="show" id="hPv-u5-qDf"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FZA-vB-mcQ">
-                                <rect key="frame" x="226" y="920" width="29" height="104"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jq9-k2-N41">
+                                <rect key="frame" x="78" y="893" width="36" height="131"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="red"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="cYq-Ej-mZU"/>
+                                    <action selector="colorsPicked:" destination="DAf-VD-JiH" eventType="touchUpInside" id="ox3-7L-BsR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RGW-Kj-6la">
+                                <rect key="frame" x="128" y="893" width="36" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="green"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="xNz-E2-11V"/>
+                                    <action selector="colorsPicked:" destination="DAf-VD-JiH" eventType="touchUpInside" id="y8z-ZP-gm4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qAX-6a-EI7">
+                                <rect key="frame" x="180" y="892" width="36" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="blue"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="Drz-zo-7aw"/>
+                                    <action selector="colorsPicked:" destination="DAf-VD-JiH" eventType="touchUpInside" id="uEJ-i6-fS8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HaO-Os-jVX">
+                                <rect key="frame" x="230" y="893" width="36" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="pink"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="AoC-Vh-n7L"/>
+                                    <action selector="colorsPicked:" destination="DAf-VD-JiH" eventType="touchUpInside" id="ih1-gK-ld7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="omy-K8-33P">
+                                <rect key="frame" x="326" y="893" width="36" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="teal"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="Zbg-ff-X8T"/>
+                                    <action selector="colorsPicked:" destination="DAf-VD-JiH" eventType="touchUpInside" id="qYa-Pq-2Lu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="snS-vu-8QL">
+                                <rect key="frame" x="280" y="892" width="36" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="yellow"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="Tnp-ry-uaA"/>
+                                    <action selector="colorsPicked:" destination="DAf-VD-JiH" eventType="touchUpInside" id="nTn-HM-5kL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xuD-iy-vgb">
+                                <rect key="frame" x="372" y="893" width="36" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="white"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="g0I-a2-ATC"/>
+                                    <action selector="colorsPicked:" destination="DAf-VD-JiH" eventType="touchUpInside" id="y45-XX-AJL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kRY-tf-cap">
+                                <rect key="frame" x="422" y="893" width="36" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="black"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="7RC-8o-kc1"/>
+                                    <action selector="colorsPicked:" destination="DAf-VD-JiH" eventType="touchUpInside" id="zYV-z0-BW1"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="r5k-cU-yfD" id="E3o-Lb-PnI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zFz-Ux-C9g" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -973,10 +1183,10 @@
             </objects>
             <point key="canvasLocation" x="2663.28125" y="-744.140625"/>
         </scene>
-        <!--View Controller-->
+        <!--Draw View Controller-->
         <scene sceneID="2N4-XZ-Cfd">
             <objects>
-                <viewController id="QWl-Wz-8cK" sceneMemberID="viewController">
+                <viewController id="QWl-Wz-8cK" customClass="DrawViewController" customModule="WebView" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jdW-Yi-qro"/>
                         <viewControllerLayoutGuide type="bottom" id="f0C-KP-ORd"/>
@@ -990,42 +1200,92 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iAa-a1-qcB">
-                                <rect key="frame" x="80" y="920" width="29" height="104"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kSw-nI-khx">
+                                <rect key="frame" x="63" y="893" width="36" height="131"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="red"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="CR6-70-zhi"/>
+                                    <action selector="colorsPicked:" destination="QWl-Wz-8cK" eventType="touchUpInside" id="Ff7-ly-IV9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qsb-a4-B7F">
+                                <rect key="frame" x="113" y="893" width="36" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="green"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="NjB-n3-0wq"/>
+                                    <action selector="colorsPicked:" destination="QWl-Wz-8cK" eventType="touchUpInside" id="Ot5-h9-eT2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g9i-2H-1tL">
+                                <rect key="frame" x="165" y="892" width="36" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="blue"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="QWl-Wz-8cK" eventType="touchUpInside" id="ITO-d2-BSD"/>
+                                    <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="U1f-6r-DK4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aS9-t5-ng8">
+                                <rect key="frame" x="215" y="893" width="36" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="pink"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="QWl-Wz-8cK" eventType="touchUpInside" id="M51-Ia-Ul9"/>
+                                    <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="zkl-eO-DVL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YWC-ec-HOO">
+                                <rect key="frame" x="311" y="893" width="36" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="teal"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="QWl-Wz-8cK" eventType="touchUpInside" id="T4t-eA-raF"/>
+                                    <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="ZNC-Ha-TCh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fJ6-UV-Bmq">
+                                <rect key="frame" x="265" y="892" width="36" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="yellow"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="NJ6-0x-cZf"/>
+                                    <action selector="colorsPicked:" destination="QWl-Wz-8cK" eventType="touchUpInside" id="YOt-wY-JEv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xrK-so-7ic">
+                                <rect key="frame" x="357" y="893" width="36" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="white"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="VVP-Q0-NJQ"/>
+                                    <action selector="colorsPicked:" destination="QWl-Wz-8cK" eventType="touchUpInside" id="ihg-3o-RJZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Gc-bh-aQh">
+                                <rect key="frame" x="407" y="893" width="36" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="black"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="FDZ-wn-RdZ"/>
+                                    <action selector="colorsPicked:" destination="QWl-Wz-8cK" eventType="touchUpInside" id="bEM-aE-tbM"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ptT-vR-N2N">
-                                <rect key="frame" x="293" y="931" width="182" height="114"/>
+                                <rect key="frame" x="517" y="922" width="182" height="114"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="flechaFORW"/>
                                 <connections>
                                     <segue destination="uYR-NU-lAi" kind="show" id="Pca-jg-30H"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fz0-MP-0OT">
-                                <rect key="frame" x="108" y="920" width="29" height="104"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="blue"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UfQ-Qr-3NP">
-                                <rect key="frame" x="133" y="920" width="29" height="104"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="green"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eLA-5R-xuC">
-                                <rect key="frame" x="187" y="920" width="29" height="104"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="pink"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="otY-oE-u2W">
-                                <rect key="frame" x="159" y="920" width="29" height="104"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="yellow"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="vr8-Dm-wK7" id="9uL-0z-m34"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NCw-TA-b3W" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2772,7 +3032,6 @@
     </scenes>
     <resources>
         <image name="EraserIcon" width="418" height="418"/>
-        <image name="Gear" width="411" height="411"/>
         <image name="ResetIcon" width="416" height="415"/>
         <image name="Saveicon" width="407" height="407"/>
         <image name="W LOGO" width="442" height="374"/>

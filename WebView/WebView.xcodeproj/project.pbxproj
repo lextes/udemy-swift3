@@ -7,17 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		845EF4541E4DFFC00079C8C8 /* draw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845EF4531E4DFFC00079C8C8 /* draw.swift */; };
 		845EF4561E4DFFD20079C8C8 /* video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845EF4551E4DFFD20079C8C8 /* video.swift */; };
 		84A6CB241E458C240084C8E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A6CB231E458C240084C8E5 /* AppDelegate.swift */; };
 		84A6CB261E458C240084C8E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A6CB251E458C240084C8E5 /* ViewController.swift */; };
 		84A6CB291E458C240084C8E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A6CB271E458C240084C8E5 /* Main.storyboard */; };
 		84A6CB2B1E458C240084C8E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A6CB2A1E458C240084C8E5 /* Assets.xcassets */; };
 		84A6CB2E1E458C240084C8E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A6CB2C1E458C240084C8E5 /* LaunchScreen.storyboard */; };
+		84E02C381E504701006C3044 /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E02C371E504701006C3044 /* DrawViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		845EF4531E4DFFC00079C8C8 /* draw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = draw.swift; sourceTree = "<group>"; };
 		845EF4551E4DFFD20079C8C8 /* video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = video.swift; sourceTree = "<group>"; };
 		84A6CB201E458C240084C8E5 /* WebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A6CB231E458C240084C8E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +25,7 @@
 		84A6CB2A1E458C240084C8E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84A6CB2D1E458C240084C8E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84A6CB2F1E458C240084C8E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E02C371E504701006C3044 /* DrawViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +58,7 @@
 		84A6CB221E458C240084C8E5 /* WebView */ = {
 			isa = PBXGroup;
 			children = (
+				84E02C361E5040C0006C3044 /* dinamics */,
 				84E02C151E4FEB6B006C3044 /* Geography */,
 				84E02C141E4FEB63006C3044 /* history */,
 				84E02C131E4FEB4D006C3044 /* social studies */,
@@ -65,7 +66,6 @@
 				84A6CB231E458C240084C8E5 /* AppDelegate.swift */,
 				84A6CB251E458C240084C8E5 /* ViewController.swift */,
 				84A6CB271E458C240084C8E5 /* Main.storyboard */,
-				845EF4531E4DFFC00079C8C8 /* draw.swift */,
 				845EF4551E4DFFD20079C8C8 /* video.swift */,
 				84A6CB2A1E458C240084C8E5 /* Assets.xcassets */,
 				84A6CB2C1E458C240084C8E5 /* LaunchScreen.storyboard */,
@@ -100,6 +100,14 @@
 			children = (
 			);
 			name = Geography;
+			sourceTree = "<group>";
+		};
+		84E02C361E5040C0006C3044 /* dinamics */ = {
+			isa = PBXGroup;
+			children = (
+				84E02C371E504701006C3044 /* DrawViewController.swift */,
+			);
+			name = dinamics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,7 +183,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				845EF4541E4DFFC00079C8C8 /* draw.swift in Sources */,
+				84E02C381E504701006C3044 /* DrawViewController.swift in Sources */,
 				845EF4561E4DFFD20079C8C8 /* video.swift in Sources */,
 				84A6CB261E458C240084C8E5 /* ViewController.swift in Sources */,
 				84A6CB241E458C240084C8E5 /* AppDelegate.swift in Sources */,
