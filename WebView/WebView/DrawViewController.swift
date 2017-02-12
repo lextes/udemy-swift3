@@ -79,6 +79,12 @@ class DrawViewController: UIViewController {
             drawLines(fromPoint: lastPoint, toPoint: lastPoint)
         }
     }
+    
+    @IBAction func reset(_ sender: AnyObject) {
+        self.imageView.image = nil
+    }
+    
+    
        
     @IBAction func colorsPicked(_ sender: AnyObject) {
         if sender.tag == 0 {
