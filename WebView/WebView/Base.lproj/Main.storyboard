@@ -1009,10 +1009,10 @@
             </objects>
             <point key="canvasLocation" x="2663.28125" y="-1484.1796875"/>
         </scene>
-        <!--View Controller-->
+        <!--Animated Button View Controller-->
         <scene sceneID="8aP-3t-i1q">
             <objects>
-                <viewController id="3Td-4r-0Hy" sceneMemberID="viewController">
+                <viewController id="3Td-4r-0Hy" customClass="AnimatedButtonViewController" customModule="WebView" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Tve-Yr-dQX"/>
                         <viewControllerLayoutGuide type="bottom" id="G2B-lt-Af6"/>
@@ -1035,9 +1035,37 @@
                                     </segue>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fha-62-15l">
+                                <rect key="frame" x="153" y="362" width="141" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.92941176469999998" green="0.56470588239999997" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="35"/>
+                                <state key="normal" title="Shower">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="sync:" destination="3Td-4r-0Hy" eventType="touchUpInside" id="yHG-Zy-POI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8FN-M4-Mgg">
+                                <rect key="frame" x="243" y="645" width="220" height="144"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="ok"/>
+                                <connections>
+                                    <action selector="ok:" destination="3Td-4r-0Hy" eventType="touchUpInside" id="g2X-Ow-pNc"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CuadroA" translatesAutoresizingMaskIntoConstraints="NO" id="UeT-OP-rgi">
+                                <rect key="frame" x="88" y="273" width="320" height="238"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="popUp" destination="UeT-OP-rgi" id="wJs-my-Q1m"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OL3-D7-XGm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -3093,6 +3121,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="CuadroA" width="362" height="310"/>
         <image name="EraserIcon" width="418" height="418"/>
         <image name="ResetIcon" width="416" height="415"/>
         <image name="Saveicon" width="407" height="407"/>
