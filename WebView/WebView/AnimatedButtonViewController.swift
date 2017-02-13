@@ -8,9 +8,9 @@
 
 import UIKit
 class AnimatedButtonViewController: UIViewController {
+
     
-    
- 
+   
     @IBOutlet weak var popUp: UIVisualEffectView!
     
     override func viewDidLoad() {
@@ -22,6 +22,7 @@ class AnimatedButtonViewController: UIViewController {
     
     
   
+   
     @IBAction func sync(_ sender: Any) {
     
         popUp.transform = CGAffineTransform(scaleX: 0.3, y: 2)
@@ -36,7 +37,9 @@ class AnimatedButtonViewController: UIViewController {
     }
     
   
-    @IBAction func ok(_ sender: Any) {
-         popUp.alpha = 0
+    @IBAction func ok(_ sender: UIButton) {
+        popUp.alpha = 0
+
     }
+    
 }

@@ -151,7 +151,7 @@
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="50"/>
                                 <state key="normal" title="3"/>
                                 <connections>
-                                    <segue destination="JsI-ds-M2w" kind="show" id="ONn-Hl-Gam"/>
+                                    <segue destination="JsI-ds-M2w" kind="show" id="wJv-gJ-pYo"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CAy-sl-S0y">
@@ -1036,11 +1036,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fha-62-15l">
-                                <rect key="frame" x="153" y="362" width="141" height="60"/>
+                                <rect key="frame" x="420" y="226" width="199" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.92941176469999998" green="0.56470588239999997" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="35"/>
-                                <state key="normal" title="Shower">
+                                <state key="normal" title="Show me">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -1048,7 +1048,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8FN-M4-Mgg">
-                                <rect key="frame" x="243" y="645" width="220" height="144"/>
+                                <rect key="frame" x="541" y="880" width="220" height="144"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="ok"/>
@@ -1056,15 +1056,15 @@
                                     <action selector="ok:" destination="3Td-4r-0Hy" eventType="touchUpInside" id="g2X-Ow-pNc"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CuadroA" translatesAutoresizingMaskIntoConstraints="NO" id="UeT-OP-rgi">
-                                <rect key="frame" x="88" y="273" width="320" height="238"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="recuadros" translatesAutoresizingMaskIntoConstraints="NO" id="3IQ-UZ-v6Y">
+                                <rect key="frame" x="84" y="312" width="587" height="625"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="popUp" destination="UeT-OP-rgi" id="wJs-my-Q1m"/>
+                        <outlet property="popUp" destination="3IQ-UZ-v6Y" id="2rd-Pa-CkR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OL3-D7-XGm" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1225,10 +1225,10 @@
             </objects>
             <point key="canvasLocation" x="4726" y="-1479"/>
         </scene>
-        <!--View Controller-->
+        <!--Animated Button View Controller-->
         <scene sceneID="Naw-TE-cwD">
             <objects>
-                <viewController id="JsI-ds-M2w" sceneMemberID="viewController">
+                <viewController id="JsI-ds-M2w" customClass="AnimatedButtonViewController" customModule="WebView" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="740-au-GrV"/>
                         <viewControllerLayoutGuide type="bottom" id="u0Y-z3-Dpy"/>
@@ -1251,9 +1251,28 @@
                                     </segue>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kid1" translatesAutoresizingMaskIntoConstraints="NO" id="Eg4-6Z-6Xh">
+                                <rect key="frame" x="49" y="406" width="98" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SxM-Xx-oZa">
+                                <rect key="frame" x="443" y="99" width="199" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.92941176469999998" green="0.56470588239999997" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="35"/>
+                                <state key="normal" title="Show me">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="sync:" destination="JsI-ds-M2w" eventType="touchUpInside" id="zs5-Ug-2L6"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="popUp" destination="Eg4-6Z-6Xh" id="Cy7-Mc-f5w"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ice-gE-CDR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -3121,7 +3140,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="CuadroA" width="362" height="310"/>
         <image name="EraserIcon" width="418" height="418"/>
         <image name="ResetIcon" width="416" height="415"/>
         <image name="Saveicon" width="407" height="407"/>
@@ -3134,6 +3152,7 @@
         <image name="fondoFinleccion" width="539" height="693"/>
         <image name="fondo_principal" width="1470" height="1890"/>
         <image name="green" width="119" height="455"/>
+        <image name="kid1" width="100" height="129"/>
         <image name="pink" width="119" height="455"/>
         <image name="prueba_test1" width="546" height="713"/>
         <image name="prueba_test10" width="555" height="733"/>
@@ -3145,6 +3164,7 @@
         <image name="prueba_test7" width="555" height="732"/>
         <image name="prueba_test8" width="556" height="732"/>
         <image name="prueba_test9" width="556" height="732"/>
+        <image name="recuadros" width="698" height="788"/>
         <image name="red" width="120" height="456"/>
         <image name="socialUnit1_1" width="522" height="698"/>
         <image name="socialUnit1_10" width="545" height="706"/>
@@ -3170,10 +3190,10 @@
         <image name="yellow" width="120" height="455"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="ATC-LU-Xnl"/>
-        <segue reference="V0H-ut-dPF"/>
+        <segue reference="3ek-nY-pVD"/>
+        <segue reference="5xb-Rb-tL5"/>
+        <segue reference="9Nd-Sh-Nsg"/>
         <segue reference="qzx-pz-1bS"/>
         <segue reference="v4K-za-Vzl"/>
-        <segue reference="9Nd-Sh-Nsg"/>
     </inferredMetricsTieBreakers>
 </document>
