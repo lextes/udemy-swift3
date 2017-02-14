@@ -1044,6 +1044,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="numberPressedWithSender:" destination="3Td-4r-0Hy" eventType="touchUpInside" id="iCW-E2-USP"/>
                                     <action selector="sync:" destination="3Td-4r-0Hy" eventType="touchUpInside" id="yHG-Zy-POI"/>
                                 </connections>
                             </button>
@@ -1057,7 +1058,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="recuadros" translatesAutoresizingMaskIntoConstraints="NO" id="3IQ-UZ-v6Y">
-                                <rect key="frame" x="84" y="312" width="587" height="625"/>
+                                <rect key="frame" x="84" y="289" width="587" height="625"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -1264,9 +1265,22 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="numberPressedWithSender:" destination="JsI-ds-M2w" eventType="touchUpInside" id="wUh-LS-3FR"/>
                                     <action selector="sync:" destination="JsI-ds-M2w" eventType="touchUpInside" id="zs5-Ug-2L6"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kid2" translatesAutoresizingMaskIntoConstraints="NO" id="EmT-FX-nBU">
+                                <rect key="frame" x="382" y="406" width="98" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kid3" translatesAutoresizingMaskIntoConstraints="NO" id="0hw-aH-fIQ">
+                                <rect key="frame" x="42" y="529" width="162" height="206"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kid4" translatesAutoresizingMaskIntoConstraints="NO" id="MOe-yX-v2o">
+                                <rect key="frame" x="64" y="769" width="173" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -1398,7 +1412,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NCw-TA-b3W" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3364.84375" y="-744.140625"/>
+            <point key="canvasLocation" x="3312" y="-744"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="o0V-ud-7in">
@@ -1430,7 +1444,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P9f-v2-Spx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4078" y="-744"/>
+            <point key="canvasLocation" x="4013" y="-744"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ce2-B6-L4H">
@@ -3153,6 +3167,9 @@
         <image name="fondo_principal" width="1470" height="1890"/>
         <image name="green" width="119" height="455"/>
         <image name="kid1" width="100" height="129"/>
+        <image name="kid2" width="100" height="125"/>
+        <image name="kid3" width="163" height="163"/>
+        <image name="kid4" width="140" height="96"/>
         <image name="pink" width="119" height="455"/>
         <image name="prueba_test1" width="546" height="713"/>
         <image name="prueba_test10" width="555" height="733"/>
@@ -3190,10 +3207,10 @@
         <image name="yellow" width="120" height="455"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="3ek-nY-pVD"/>
-        <segue reference="5xb-Rb-tL5"/>
-        <segue reference="9Nd-Sh-Nsg"/>
-        <segue reference="qzx-pz-1bS"/>
         <segue reference="v4K-za-Vzl"/>
+        <segue reference="5xb-Rb-tL5"/>
+        <segue reference="FEk-2r-w03"/>
+        <segue reference="qzx-pz-1bS"/>
+        <segue reference="9Nd-Sh-Nsg"/>
     </inferredMetricsTieBreakers>
 </document>

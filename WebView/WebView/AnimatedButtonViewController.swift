@@ -7,22 +7,40 @@
 //
 
 import UIKit
+import AVFoundation
+
 class AnimatedButtonViewController: UIViewController {
 
     
-   
+   // Selector image 1
+    
     @IBOutlet weak var popUp: UIVisualEffectView!
+    
+    // declare var sound
+    var btnSound: AVAudioPlayer!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         popUp.alpha = 0
         
+        let path = Bundle.main.path(forResource: "boing", ofType: "mp3")
+        let soundURL = URL(fileURLWithPath: path!)
+        
+        do {
+            try btnSound = AVAudioPlayer(contentsOf: soundURL)
+            btnSound.prepareToPlay()
+            
+        }catch let err as NSError{
+            print(err.debugDescription)
+         }
+        
     }
     
     
-  
-   
+    // button send action
+    
     @IBAction func sync(_ sender: Any) {
     
         popUp.transform = CGAffineTransform(scaleX: 0.3, y: 2)
@@ -36,10 +54,25 @@ class AnimatedButtonViewController: UIViewController {
         
     }
     
-  
+   // sound 2
+    
+    @IBAction func numberPressed(sender: UIButton){
+        playSound()
+    }
+    
+    func playSound() {
+        if btnSound.isPlaying{
+            btnSound.stop()
+        }
+        btnSound.play()
+    }
+    
+    
+  // button refresh screen
+    
     @IBAction func ok(_ sender: UIButton) {
         popUp.alpha = 0
 
     }
-    
+
 }

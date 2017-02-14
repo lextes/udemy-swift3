@@ -14,6 +14,7 @@
 		84A6CB2B1E458C240084C8E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A6CB2A1E458C240084C8E5 /* Assets.xcassets */; };
 		84A6CB2E1E458C240084C8E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A6CB2C1E458C240084C8E5 /* LaunchScreen.storyboard */; };
 		84AB44511E5237F00087E2AB /* AnimatedButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AB44501E5237F00087E2AB /* AnimatedButtonViewController.swift */; };
+		84B0CA251E535ABB0011E552 /* boing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84B0CA241E535ABB0011E552 /* boing.mp3 */; };
 		84E02C381E504701006C3044 /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E02C371E504701006C3044 /* DrawViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		84A6CB2D1E458C240084C8E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84A6CB2F1E458C240084C8E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84AB44501E5237F00087E2AB /* AnimatedButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedButtonViewController.swift; sourceTree = "<group>"; };
+		84B0CA241E535ABB0011E552 /* boing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = boing.mp3; sourceTree = "<group>"; };
 		84E02C371E504701006C3044 /* DrawViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,6 +62,7 @@
 		84A6CB221E458C240084C8E5 /* WebView */ = {
 			isa = PBXGroup;
 			children = (
+				84B0CA231E535AAB0011E552 /* sounds */,
 				84E02C361E5040C0006C3044 /* dinamics */,
 				84E02C151E4FEB6B006C3044 /* Geography */,
 				84E02C141E4FEB63006C3044 /* history */,
@@ -74,6 +77,14 @@
 				84A6CB2F1E458C240084C8E5 /* Info.plist */,
 			);
 			path = WebView;
+			sourceTree = "<group>";
+		};
+		84B0CA231E535AAB0011E552 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				84B0CA241E535ABB0011E552 /* boing.mp3 */,
+			);
+			name = sounds;
 			sourceTree = "<group>";
 		};
 		84E02C121E4FEB3E006C3044 /* science */ = {
@@ -175,6 +186,7 @@
 			files = (
 				84A6CB2E1E458C240084C8E5 /* LaunchScreen.storyboard in Resources */,
 				84A6CB2B1E458C240084C8E5 /* Assets.xcassets in Resources */,
+				84B0CA251E535ABB0011E552 /* boing.mp3 in Resources */,
 				84A6CB291E458C240084C8E5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
