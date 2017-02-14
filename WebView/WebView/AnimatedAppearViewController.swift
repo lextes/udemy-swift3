@@ -1,6 +1,6 @@
 //
 //  AnimatedAppearViewController.swift
-//  Chain Animations
+//  AnimatedAppear
 //
 //  Created by Diseño on 14/02/17.
 //  Copyright © 2017 Desarrollo App Wexford. All rights reserved.
@@ -13,11 +13,8 @@ class AnimatedAppearViewController: UIViewController {
     
     
     @IBOutlet weak var kid1: UIImageView!
-    
     @IBOutlet weak var kid2: UIImageView!
-    
     @IBOutlet weak var kid3: UIImageView!
-    
     @IBOutlet weak var kid4: UIImageView!
     
     

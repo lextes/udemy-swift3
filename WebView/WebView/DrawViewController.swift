@@ -1,6 +1,6 @@
 //
-//  ViewController.swift
-//  DrawViewController
+//  DrawViewController.swift
+//  Draw 
 //
 //  Created by roycetanjiashing on 17/9/16.
 //  Copyright © 2016 examplecompany. All rights reserved.

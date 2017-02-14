@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  AnimatedButtonViewController.swift
 //  animateButton
 //
 //  Created by Diseño on 13/02/17.
