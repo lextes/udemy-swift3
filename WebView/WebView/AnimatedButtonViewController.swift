@@ -25,6 +25,8 @@ class AnimatedButtonViewController: UIViewController {
         
         popUp.alpha = 0
         
+        //path for sound
+        
         let path = Bundle.main.path(forResource: "boing", ofType: "mp3")
         let soundURL = URL(fileURLWithPath: path!)
         
@@ -39,7 +41,7 @@ class AnimatedButtonViewController: UIViewController {
     }
     
     
-    // button send action
+    // button send action animated
     
     @IBAction func sync(_ sender: Any) {
     
@@ -54,7 +56,7 @@ class AnimatedButtonViewController: UIViewController {
         
     }
     
-   // sound 2
+   // func and play sound
     
     @IBAction func numberPressed(sender: UIButton){
         playSound()

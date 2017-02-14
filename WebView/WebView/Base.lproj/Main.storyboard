@@ -151,7 +151,7 @@
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="50"/>
                                 <state key="normal" title="3"/>
                                 <connections>
-                                    <segue destination="JsI-ds-M2w" kind="show" id="wJv-gJ-pYo"/>
+                                    <segue destination="JsI-ds-M2w" kind="show" id="p2m-Aw-Zl3"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CAy-sl-S0y">
@@ -1226,10 +1226,10 @@
             </objects>
             <point key="canvasLocation" x="4726" y="-1479"/>
         </scene>
-        <!--Animated Button View Controller-->
+        <!--Animated Appear View Controller-->
         <scene sceneID="Naw-TE-cwD">
             <objects>
-                <viewController id="JsI-ds-M2w" customClass="AnimatedButtonViewController" customModule="WebView" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="JsI-ds-M2w" customClass="AnimatedAppearViewController" customModule="WebView" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="740-au-GrV"/>
                         <viewControllerLayoutGuide type="bottom" id="u0Y-z3-Dpy"/>
@@ -1256,19 +1256,6 @@
                                 <rect key="frame" x="49" y="406" width="98" height="115"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SxM-Xx-oZa">
-                                <rect key="frame" x="443" y="99" width="199" height="60"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.92941176469999998" green="0.56470588239999997" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="35"/>
-                                <state key="normal" title="Show me">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="numberPressedWithSender:" destination="JsI-ds-M2w" eventType="touchUpInside" id="wUh-LS-3FR"/>
-                                    <action selector="sync:" destination="JsI-ds-M2w" eventType="touchUpInside" id="zs5-Ug-2L6"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kid2" translatesAutoresizingMaskIntoConstraints="NO" id="EmT-FX-nBU">
                                 <rect key="frame" x="382" y="406" width="98" height="115"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -1285,7 +1272,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="popUp" destination="Eg4-6Z-6Xh" id="Cy7-Mc-f5w"/>
+                        <outlet property="kid1" destination="Eg4-6Z-6Xh" id="w7c-II-Cha"/>
+                        <outlet property="kid2" destination="EmT-FX-nBU" id="XAh-OP-LRY"/>
+                        <outlet property="kid3" destination="0hw-aH-fIQ" id="UDt-Xa-fVI"/>
+                        <outlet property="kid4" destination="MOe-yX-v2o" id="Va3-BJ-B7G"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ice-gE-CDR" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -80,12 +80,16 @@ class DrawViewController: UIViewController {
         }
     }
     
+    
+    // Operator buttons
+    
     @IBAction func reset(_ sender: AnyObject) {
         self.imageView.image = nil
     }
     
     
-       
+     // colores change RGB and  picker button
+    
     @IBAction func colorsPicked(_ sender: AnyObject) {
         if sender.tag == 0 {
             (red,green,blue) = (1,0,0)

@@ -15,6 +15,7 @@
 		84A6CB2E1E458C240084C8E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A6CB2C1E458C240084C8E5 /* LaunchScreen.storyboard */; };
 		84AB44511E5237F00087E2AB /* AnimatedButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AB44501E5237F00087E2AB /* AnimatedButtonViewController.swift */; };
 		84B0CA251E535ABB0011E552 /* boing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84B0CA241E535ABB0011E552 /* boing.mp3 */; };
+		84B0CA4D1E537FD20011E552 /* AnimatedAppearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B0CA4C1E537FD20011E552 /* AnimatedAppearViewController.swift */; };
 		84E02C381E504701006C3044 /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E02C371E504701006C3044 /* DrawViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		84A6CB2F1E458C240084C8E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84AB44501E5237F00087E2AB /* AnimatedButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedButtonViewController.swift; sourceTree = "<group>"; };
 		84B0CA241E535ABB0011E552 /* boing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = boing.mp3; sourceTree = "<group>"; };
+		84B0CA4C1E537FD20011E552 /* AnimatedAppearViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedAppearViewController.swift; sourceTree = "<group>"; };
 		84E02C371E504701006C3044 /* DrawViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,6 +122,7 @@
 			children = (
 				84E02C371E504701006C3044 /* DrawViewController.swift */,
 				84AB44501E5237F00087E2AB /* AnimatedButtonViewController.swift */,
+				84B0CA4C1E537FD20011E552 /* AnimatedAppearViewController.swift */,
 			);
 			name = dinamics;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			files = (
 				84E02C381E504701006C3044 /* DrawViewController.swift in Sources */,
 				845EF4561E4DFFD20079C8C8 /* video.swift in Sources */,
+				84B0CA4D1E537FD20011E552 /* AnimatedAppearViewController.swift in Sources */,
 				84A6CB261E458C240084C8E5 /* ViewController.swift in Sources */,
 				84A6CB241E458C240084C8E5 /* AppDelegate.swift in Sources */,
 				84AB44511E5237F00087E2AB /* AnimatedButtonViewController.swift in Sources */,
