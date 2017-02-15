@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableView {
+class ViewController: UIViewController {
 
     @IBOutlet weak var myTextView: UITextView!
     

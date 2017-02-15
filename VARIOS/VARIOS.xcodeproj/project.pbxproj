@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84A266AC1E53FA2200ABC5E7 /* MultipleSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A266AB1E53FA2200ABC5E7 /* MultipleSoundsViewController.swift */; };
 		84B0CA5B1E53922E0011E552 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B0CA5A1E53922E0011E552 /* AppDelegate.swift */; };
 		84B0CA5D1E53922E0011E552 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B0CA5C1E53922E0011E552 /* ViewController.swift */; };
 		84B0CA601E53922E0011E552 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B0CA5E1E53922E0011E552 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		84A266AB1E53FA2200ABC5E7 /* MultipleSoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleSoundsViewController.swift; sourceTree = "<group>"; };
 		84B0CA571E53922E0011E552 /* VARIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VARIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B0CA5A1E53922E0011E552 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84B0CA5C1E53922E0011E552 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				84B0CA5A1E53922E0011E552 /* AppDelegate.swift */,
 				84B0CA5C1E53922E0011E552 /* ViewController.swift */,
 				84B0CA5E1E53922E0011E552 /* Main.storyboard */,
+				84A266AB1E53FA2200ABC5E7 /* MultipleSoundsViewController.swift */,
 				84B0CA611E53922E0011E552 /* Assets.xcassets */,
 				84B0CA631E53922E0011E552 /* LaunchScreen.storyboard */,
 				84B0CA661E53922E0011E552 /* Info.plist */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84B0CA5D1E53922E0011E552 /* ViewController.swift in Sources */,
+				84A266AC1E53FA2200ABC5E7 /* MultipleSoundsViewController.swift in Sources */,
 				84B0CA5B1E53922E0011E552 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +306,7 @@
 				84B0CA6B1E53922E0011E552 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
