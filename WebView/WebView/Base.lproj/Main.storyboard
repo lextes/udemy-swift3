@@ -1568,10 +1568,10 @@
             </objects>
             <point key="canvasLocation" x="2663.28125" y="147.65625"/>
         </scene>
-        <!--View Controller-->
+        <!--Multiple Sounds View Controller-->
         <scene sceneID="U3I-Zn-ZJx">
             <objects>
-                <viewController id="Jbk-va-Bkw" sceneMemberID="viewController">
+                <viewController id="Jbk-va-Bkw" customClass="MultipleSoundsViewController" customModule="WebView" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="a0h-lP-1ut"/>
                         <viewControllerLayoutGuide type="bottom" id="TBq-kY-RWf"/>
@@ -1589,25 +1589,33 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="dtw-Uh-sfa" kind="show" id="nRX-WM-guT">
-                                        <nil key="action"/>
-                                    </segue>
+                                    <action selector="stopPlay:" destination="Jbk-va-Bkw" eventType="touchUpInside" id="ge8-S0-LEw"/>
+                                    <segue destination="dtw-Uh-sfa" kind="show" id="TEK-e8-UBk"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0sP-on-4nh">
                                 <rect key="frame" x="64" y="698" width="257" height="174"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="foto1"/>
+                                <connections>
+                                    <action selector="playButton2:" destination="Jbk-va-Bkw" eventType="touchUpInside" id="aMg-Lj-z1G"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qj2-qd-jf9">
                                 <rect key="frame" x="382" y="698" width="257" height="174"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="foto3"/>
+                                <connections>
+                                    <action selector="playButton3:" destination="Jbk-va-Bkw" eventType="touchUpInside" id="4iE-h2-rQU"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hGY-oL-grN">
                                 <rect key="frame" x="382" y="320" width="257" height="174"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="foto2"/>
+                                <connections>
+                                    <action selector="playButton1:" destination="Jbk-va-Bkw" eventType="touchUpInside" id="sAi-07-TOU"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
