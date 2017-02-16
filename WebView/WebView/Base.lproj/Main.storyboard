@@ -2110,10 +2110,10 @@
             </objects>
             <point key="canvasLocation" x="2676" y="879"/>
         </scene>
-        <!--View Controller-->
+        <!--Text View Controller-->
         <scene sceneID="Taj-sL-aNU">
             <objects>
-                <viewController id="Rq8-13-4uF" customClass="ViewController" customModule="WebView" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Rq8-13-4uF" customClass="TextViewController" customModule="WebView" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="56N-uw-8o6"/>
                         <viewControllerLayoutGuide type="bottom" id="dqb-U0-M3K"/>
@@ -2136,18 +2136,52 @@
                                     </segue>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eCB-06-GoW">
+                                <rect key="frame" x="388" y="574" width="300" height="134"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.71574519230769229" green="0.1107555650350099" blue="0.5781028989657544" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" metaFont="menu" size="14"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="3" lineHeightMultiple="1.2" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="abE-M2-L7g">
+                                <rect key="frame" x="388" y="364" width="300" height="134"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.71574519230769229" green="0.1107555650350099" blue="0.5781028989657544" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" metaFont="menu" size="14"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="3" lineHeightMultiple="1.2" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="myTextView" destination="abE-M2-L7g" id="sLA-No-lZd"/>
+                        <outlet property="myTextView2" destination="eCB-06-GoW" id="dEf-kn-B0O"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vml-De-Xol" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3363.28125" y="875.9765625"/>
         </scene>
-        <!--View Controller-->
+        <!--Draw View Controller-->
         <scene sceneID="87y-V1-6ni">
             <objects>
-                <viewController id="e06-EQ-A4d" sceneMemberID="viewController">
+                <viewController id="e06-EQ-A4d" customClass="DrawViewController" customModule="WebView" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="OVt-Bp-5od"/>
                         <viewControllerLayoutGuide type="bottom" id="YJL-jJ-LL0"/>
@@ -2160,23 +2194,113 @@
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1055"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VtK-6r-VvD">
-                                <rect key="frame" x="289" y="923" width="191" height="132"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0PP-lj-8CC">
+                                <rect key="frame" x="361" y="952" width="60" height="60"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="ResetIcon"/>
+                                <connections>
+                                    <action selector="reset:" destination="zDe-3E-P9X" eventType="touchUpInside" id="0VP-RK-TbG"/>
+                                    <action selector="reset:" destination="e06-EQ-A4d" eventType="touchUpInside" id="pQN-Bh-qHW"/>
+                                    <action selector="reset:" destination="1gM-8s-jhD" eventType="touchUpInside" id="uw0-83-gk2"/>
+                                    <action selector="reset:" destination="oxy-aR-ORp" eventType="touchUpInside" id="xVG-gz-8eE"/>
+                                    <action selector="reset:" destination="bP6-Qn-dpV" eventType="touchUpInside" id="xme-Cf-KCP"/>
+                                    <action selector="reset:" destination="QWl-Wz-8cK" eventType="touchUpInside" id="ynD-bK-TcU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GdO-ru-lGe">
+                                <rect key="frame" x="123" y="946" width="20" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="red"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="e06-EQ-A4d" eventType="touchUpInside" id="DOc-xb-IYG"/>
+                                    <action selector="colorsPicked:" destination="zDe-3E-P9X" eventType="touchUpInside" id="h4T-mf-YWF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AtC-Sp-51p">
+                                <rect key="frame" x="145" y="946" width="20" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="green"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="e06-EQ-A4d" eventType="touchUpInside" id="0bF-i4-a1X"/>
+                                    <action selector="colorsPicked:" destination="zDe-3E-P9X" eventType="touchUpInside" id="Vi5-m7-Eml"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ct7-1J-wCP">
+                                <rect key="frame" x="167" y="946" width="20" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="blue"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="zDe-3E-P9X" eventType="touchUpInside" id="K5i-em-hbp"/>
+                                    <action selector="colorsPicked:" destination="e06-EQ-A4d" eventType="touchUpInside" id="LbI-hJ-A16"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g6T-sn-sfE">
+                                <rect key="frame" x="189" y="946" width="20" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="pink"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="e06-EQ-A4d" eventType="touchUpInside" id="Ktu-E2-lXi"/>
+                                    <action selector="colorsPicked:" destination="zDe-3E-P9X" eventType="touchUpInside" id="Rk2-jw-F90"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="woy-oJ-yMo">
+                                <rect key="frame" x="211" y="946" width="20" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="yellow"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="e06-EQ-A4d" eventType="touchUpInside" id="0UB-zq-qZI"/>
+                                    <action selector="colorsPicked:" destination="zDe-3E-P9X" eventType="touchUpInside" id="kwP-K8-da7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hBJ-Fl-7vu">
+                                <rect key="frame" x="233" y="946" width="20" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="teal"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="zDe-3E-P9X" eventType="touchUpInside" id="Cor-99-gD5"/>
+                                    <action selector="colorsPicked:" destination="e06-EQ-A4d" eventType="touchUpInside" id="T2g-Co-3DQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eGd-QP-tp4">
+                                <rect key="frame" x="255" y="946" width="20" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="white"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="e06-EQ-A4d" eventType="touchUpInside" id="HNc-TE-ADh"/>
+                                    <action selector="colorsPicked:" destination="zDe-3E-P9X" eventType="touchUpInside" id="yGR-5W-PUk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xvw-ET-Eoi">
+                                <rect key="frame" x="277" y="946" width="20" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="black"/>
+                                <connections>
+                                    <action selector="colorsPicked:" destination="e06-EQ-A4d" eventType="touchUpInside" id="epd-nM-DbH"/>
+                                    <action selector="colorsPicked:" destination="zDe-3E-P9X" eventType="touchUpInside" id="pfc-OY-ESW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PbB-ky-BIx">
+                                <rect key="frame" x="462" y="916" width="191" height="132"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="A3U-6a-NgE" kind="show" id="6fH-Wn-p2P">
-                                        <nil key="action"/>
-                                    </segue>
+                                    <segue destination="A3U-6a-NgE" kind="show" id="pph-0w-XZb"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="44P-Dr-Mil">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="44P-Dr-Mil" id="SXf-TY-rQf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oa9-fy-Tpy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4048" y="876"/>
+            <point key="canvasLocation" x="4047.65625" y="875.9765625"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ayU-md-YxW">
