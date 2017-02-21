@@ -17,7 +17,7 @@ class animated1: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let localFilePath = Bundle.main.url(forResource: "animated1", withExtension: "html");
+        let localFilePath = Bundle.main.url(forResource: "animated3", withExtension: "html");
         let myRequest = NSURLRequest(url: localFilePath!);
         
         webView.loadRequest(myRequest as URLRequest);

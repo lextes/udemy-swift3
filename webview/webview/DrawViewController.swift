@@ -10,7 +10,7 @@ import UIKit
 
 class DrawViewController: UIViewController {
     
-    @IBOutlet var imageView: UIImageView!
+    @IBOutlet weak var imageView: UIImageView!
     @IBOutlet var toolIcon: UIButton!
     
     var lastPoint = CGPoint.zero
