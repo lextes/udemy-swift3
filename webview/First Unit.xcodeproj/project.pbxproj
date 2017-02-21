@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		843E4F411E59428D00B129F2 /* animated1B.html in Resources */ = {isa = PBXBuildFile; fileRef = 843E4F3F1E59428D00B129F2 /* animated1B.html */; };
-		843E4F421E59428D00B129F2 /* animated1B.hyperesources in Resources */ = {isa = PBXBuildFile; fileRef = 843E4F401E59428D00B129F2 /* animated1B.hyperesources */; };
 		8485F0AF1E54D04A00C457DF /* MultipleSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8485F0AE1E54D04A00C457DF /* MultipleSoundsViewController.swift */; };
 		8485F0B11E54D1A300C457DF /* orchestral.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8485F0B01E54D1A300C457DF /* orchestral.mp3 */; };
 		8485F0B31E54D41000C457DF /* violin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8485F0B21E54D41000C457DF /* violin.mp3 */; };
@@ -24,12 +22,12 @@
 		84B0CA6D1E539ED30011E552 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B0CA6C1E539ED30011E552 /* TextViewController.swift */; };
 		84D73B081E55FAB900896D40 /* AppearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D73B071E55FAB900896D40 /* AppearViewController.swift */; };
 		84E02C381E504701006C3044 /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E02C371E504701006C3044 /* DrawViewController.swift */; };
+		84F0DC8E1E58234800B8D2F8 /* animated1.html in Resources */ = {isa = PBXBuildFile; fileRef = 84F0DC8C1E58234800B8D2F8 /* animated1.html */; };
+		84F0DC8F1E58234800B8D2F8 /* animated1.hyperesources in Resources */ = {isa = PBXBuildFile; fileRef = 84F0DC8D1E58234800B8D2F8 /* animated1.hyperesources */; };
 		84F0DC911E58235D00B8D2F8 /* animated1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F0DC901E58235D00B8D2F8 /* animated1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		843E4F3F1E59428D00B129F2 /* animated1B.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = animated1B.html; sourceTree = "<group>"; };
-		843E4F401E59428D00B129F2 /* animated1B.hyperesources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = animated1B.hyperesources; sourceTree = "<group>"; };
 		8485F0AE1E54D04A00C457DF /* MultipleSoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipleSoundsViewController.swift; sourceTree = "<group>"; };
 		8485F0B01E54D1A300C457DF /* orchestral.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = orchestral.mp3; sourceTree = "<group>"; };
 		8485F0B21E54D41000C457DF /* violin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = violin.mp3; sourceTree = "<group>"; };
@@ -47,6 +45,8 @@
 		84B0CA6C1E539ED30011E552 /* TextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
 		84D73B071E55FAB900896D40 /* AppearViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppearViewController.swift; sourceTree = "<group>"; };
 		84E02C371E504701006C3044 /* DrawViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawViewController.swift; sourceTree = "<group>"; };
+		84F0DC8C1E58234800B8D2F8 /* animated1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = animated1.html; sourceTree = "<group>"; };
+		84F0DC8D1E58234800B8D2F8 /* animated1.hyperesources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = animated1.hyperesources; sourceTree = "<group>"; };
 		84F0DC901E58235D00B8D2F8 /* animated1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = animated1.swift; path = webview/animated1.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -144,8 +144,8 @@
 		84F0DC8B1E58233600B8D2F8 /* Animated */ = {
 			isa = PBXGroup;
 			children = (
-				843E4F3F1E59428D00B129F2 /* animated1B.html */,
-				843E4F401E59428D00B129F2 /* animated1B.hyperesources */,
+				84F0DC8C1E58234800B8D2F8 /* animated1.html */,
+				84F0DC8D1E58234800B8D2F8 /* animated1.hyperesources */,
 				84F0DC901E58235D00B8D2F8 /* animated1.swift */,
 			);
 			name = Animated;
@@ -211,13 +211,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				843E4F411E59428D00B129F2 /* animated1B.html in Resources */,
+				84F0DC8F1E58234800B8D2F8 /* animated1.hyperesources in Resources */,
 				8485F0B11E54D1A300C457DF /* orchestral.mp3 in Resources */,
 				84A6CB2E1E458C240084C8E5 /* LaunchScreen.storyboard in Resources */,
 				8485F0B51E54D44F00C457DF /* starlight.mp3 in Resources */,
 				84A6CB2B1E458C240084C8E5 /* Assets.xcassets in Resources */,
 				84B0CA251E535ABB0011E552 /* boing.mp3 in Resources */,
-				843E4F421E59428D00B129F2 /* animated1B.hyperesources in Resources */,
+				84F0DC8E1E58234800B8D2F8 /* animated1.html in Resources */,
 				84A6CB291E458C240084C8E5 /* Main.storyboard in Resources */,
 				8485F0B31E54D41000C457DF /* violin.mp3 in Resources */,
 			);
