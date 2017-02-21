@@ -10,8 +10,11 @@ import UIKit
 
 class TextViewController: UIViewController {
     
+       
     @IBOutlet weak var myTextView: UITextView!
+    
     @IBOutlet weak var myTextView2: UITextView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
