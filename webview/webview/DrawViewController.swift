@@ -90,6 +90,7 @@ class DrawViewController: UIViewController {
     
      // colores change RGB and  picker button
     
+  
     @IBAction func colorsPicked(_ sender: AnyObject) {
         if sender.tag == 0 {
             (red,green,blue) = (1,0,0)
