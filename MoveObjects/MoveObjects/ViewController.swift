@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  screenshot
+//  MoveObjects
 //
-//  Created by Diseño on 15/02/17.
+//  Created by Diseño on 22/02/17.
 //  Copyright © 2017 Desarrollo App Wexford. All rights reserved.
 //
 
@@ -19,19 +19,7 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-   
-    // @IBAction func takePhoto(_ sender: Any) {
-    
-   //     UIGraphicsBeginImageContextWithOptions(UIScreen.main.bounds.size, false, 0);
-   //     self.view.drawHierarchy(in: view.bounds, afterScreenUpdates: true)
-   //     var image: UIImage = UIGraphicsGetImageFromCurrentImageContext()!;
-   //
-   //     UIGraphicsEndImageContext();
-   // }
-    
 
-   
 
-    
 }
 

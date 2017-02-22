@@ -122,7 +122,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="myO-lp-Fcf" kind="show" id="tSY-mp-R2K"/>
+                                    <segue destination="myO-lp-Fcf" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="tSY-mp-R2K"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Choose " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n1s-AQ-OGZ">
@@ -163,7 +163,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="JsI-ds-M2w" kind="show" id="p2m-Aw-Zl3"/>
+                                    <segue destination="JsI-ds-M2w" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="p2m-Aw-Zl3"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -796,7 +796,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="AGj-nI-83l" kind="show" id="a28-mZ-N93"/>
+                                    <segue destination="AGj-nI-83l" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="a28-mZ-N93"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7sV-V3-VC9">
@@ -961,9 +961,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="3Td-4r-0Hy" kind="show" id="oq4-KI-BVl">
-                                        <nil key="action"/>
-                                    </segue>
+                                    <segue destination="3Td-4r-0Hy" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="oq4-KI-BVl"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -998,9 +996,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="DAf-VD-JiH" kind="show" id="Z6w-He-r0x">
-                                        <nil key="action"/>
-                                    </segue>
+                                    <segue destination="DAf-VD-JiH" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Z6w-He-r0x"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fha-62-15l">
@@ -1134,7 +1130,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="ckx-IK-tIM" kind="show" id="hPv-u5-qDf"/>
+                                    <segue destination="ckx-IK-tIM" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="hPv-u5-qDf"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uf2-I9-OGl">
@@ -1215,9 +1211,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="QWl-Wz-8cK" kind="show" id="bY9-Kr-FU7">
-                                        <nil key="action"/>
-                                    </segue>
+                                    <segue destination="QWl-Wz-8cK" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="bY9-Kr-FU7"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kid1" translatesAutoresizingMaskIntoConstraints="NO" id="Eg4-6Z-6Xh">
@@ -1358,7 +1352,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="uYR-NU-lAi" kind="show" id="Pca-jg-30H"/>
+                                    <segue destination="uYR-NU-lAi" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Pca-jg-30H"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1505,9 +1499,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="Jbk-va-Bkw" kind="show" id="Kle-Kc-4wa">
-                                        <nil key="action"/>
-                                    </segue>
+                                    <segue destination="Jbk-va-Bkw" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="Kle-Kc-4wa"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YED-kV-Iv5">
@@ -1558,7 +1550,7 @@
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
                                     <action selector="stopPlay:" destination="Jbk-va-Bkw" eventType="touchUpInside" id="ge8-S0-LEw"/>
-                                    <segue destination="dtw-Uh-sfa" kind="show" id="TEK-e8-UBk"/>
+                                    <segue destination="dtw-Uh-sfa" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="TEK-e8-UBk"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0sP-on-4nh">
@@ -1615,9 +1607,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="zDe-3E-P9X" kind="show" id="Be4-Xh-X0P">
-                                        <nil key="action"/>
-                                    </segue>
+                                    <segue destination="zDe-3E-P9X" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="Be4-Xh-X0P"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="olL-p3-EUk">
@@ -1763,9 +1753,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="kef-Li-oDm" kind="show" id="dVJ-Vd-YY3">
-                                        <nil key="action"/>
-                                    </segue>
+                                    <segue destination="kef-Li-oDm" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="dVJ-Vd-YY3"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1800,7 +1788,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="2Fx-ht-CNA" kind="show" id="98Q-z0-wae"/>
+                                    <segue destination="2Fx-ht-CNA" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="98Q-z0-wae"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tree" translatesAutoresizingMaskIntoConstraints="NO" id="5ya-7h-XjW">
@@ -1873,7 +1861,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="eDk-qc-kld" kind="show" id="HEC-cW-1Lm"/>
+                                    <segue destination="eDk-qc-kld" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="HEC-cW-1Lm"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZHx-qu-nzg">
@@ -1968,7 +1956,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="bP6-Qn-dpV" kind="show" id="ZTe-z0-iVF"/>
+                                    <segue destination="bP6-Qn-dpV" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="ZTe-z0-iVF"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V92-U9-lDn">
@@ -1980,7 +1968,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="eO5-ir-yeT" kind="show" id="ipM-zM-f61"/>
+                                    <segue destination="eO5-ir-yeT" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="ipM-zM-f61"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lnz-tt-GuK">
@@ -1992,7 +1980,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="xQX-Bf-RcM" kind="show" id="TxC-hg-eEO"/>
+                                    <segue destination="xQX-Bf-RcM" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="TxC-hg-eEO"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kuy-GQ-ouX">
@@ -2004,7 +1992,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="h1T-Er-Gzy" kind="show" id="c1H-CL-bbf"/>
+                                    <segue destination="h1T-Er-Gzy" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="c1H-CL-bbf"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zrZ-xd-V5c">
@@ -2016,7 +2004,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Ydb-86-InO" kind="show" id="y2w-sd-PCw"/>
+                                    <segue destination="Ydb-86-InO" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="y2w-sd-PCw"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2048,7 +2036,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="flechaBACK"/>
                                 <connections>
-                                    <segue destination="4ja-sR-3g4" kind="show" id="X4Z-pG-jUf"/>
+                                    <segue destination="4ja-sR-3g4" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="X4Z-pG-jUf"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2080,9 +2068,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="Rq8-13-4uF" kind="show" id="Ggg-3w-lHs">
-                                        <nil key="action"/>
-                                    </segue>
+                                    <segue destination="Rq8-13-4uF" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="Ggg-3w-lHs"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4n4-mW-wSi">
@@ -2124,9 +2110,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="e06-EQ-A4d" kind="show" id="QBS-lf-SYT">
-                                        <nil key="action"/>
-                                    </segue>
+                                    <segue destination="e06-EQ-A4d" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="QBS-lf-SYT"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eCB-06-GoW">
@@ -2277,7 +2261,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="A3U-6a-NgE" kind="show" id="pph-0w-XZb"/>
+                                    <segue destination="A3U-6a-NgE" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="pph-0w-XZb"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="44P-Dr-Mil">
@@ -2343,22 +2327,20 @@
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1055"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ul4-Ar-Scg">
-                                <rect key="frame" x="289" y="907" width="191" height="132"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="flechaFORW"/>
-                                <connections>
-                                    <segue destination="q5H-lK-eGg" kind="show" id="O90-x6-Qpg">
-                                        <nil key="action"/>
-                                    </segue>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dhK-xO-WNL">
                                 <rect key="frame" x="75" y="390" width="277" height="166"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title=" " image="niños_bicicleta"/>
                                 <connections>
                                     <action selector="playVideo:" destination="xQX-Bf-RcM" eventType="touchUpInside" id="vWW-Pz-NwJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ul4-Ar-Scg">
+                                <rect key="frame" x="289" y="915" width="191" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="flechaFORW"/>
+                                <connections>
+                                    <segue destination="q5H-lK-eGg" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="O90-x6-Qpg"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2386,25 +2368,13 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oD1-9h-4Cr">
-                                <rect key="frame" x="289" y="910" width="191" height="132"/>
+                                <rect key="frame" x="289" y="915" width="191" height="132"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="XLh-MM-wTI" kind="show" id="fWU-es-T0q"/>
+                                    <segue destination="XLh-MM-wTI" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="fWU-es-T0q"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2mG-EU-mCY">
-                                <rect key="frame" x="88" y="671" width="597" height="204"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="seQ-wz-eu7">
-                                <rect key="frame" x="88" y="460" width="597" height="134"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -2429,14 +2399,6 @@
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1055"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jR1-im-ldW">
-                                <rect key="frame" x="541" y="914" width="191" height="132"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="flechaFORW"/>
-                                <connections>
-                                    <segue destination="k7g-n2-Jms" kind="show" id="Dni-mZ-ywq"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Knv-q7-Wec">
                                 <rect key="frame" x="406" y="953" width="60" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -2526,6 +2488,14 @@
                                 <rect key="frame" x="167" y="340" width="402" height="317"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jR1-im-ldW">
+                                <rect key="frame" x="518" y="917" width="191" height="132"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="flechaFORW"/>
+                                <connections>
+                                    <segue destination="k7g-n2-Jms" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Dni-mZ-ywq"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -2587,7 +2557,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="dhs-VU-kOc" kind="show" id="PA9-p7-vlT"/>
+                                    <segue destination="dhs-VU-kOc" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="PA9-p7-vlT"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nVX-gk-0B8">
@@ -2647,9 +2617,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="YnM-ga-Izg" kind="show" id="sFV-km-pu7">
-                                        <nil key="action"/>
-                                    </segue>
+                                    <segue destination="YnM-ga-Izg" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="sFV-km-pu7"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zun-OB-GLy">
@@ -2699,7 +2667,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="fmb-b6-OEP" kind="show" id="waR-IN-3Xk"/>
+                                    <segue destination="fmb-b6-OEP" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="waR-IN-3Xk"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2763,9 +2731,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="NSz-xo-em2" kind="show" id="JSa-AH-FBB">
-                                        <nil key="action"/>
-                                    </segue>
+                                    <segue destination="NSz-xo-em2" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="JSa-AH-FBB"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ekl-8t-1y3">
@@ -2809,7 +2775,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="zn6-yB-uES" kind="show" id="Z8f-V4-3hK"/>
+                                    <segue destination="zn6-yB-uES" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Z8f-V4-3hK"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2873,9 +2839,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="KZm-gt-UGW" kind="show" id="Zb6-kH-AGa">
-                                        <nil key="action"/>
-                                    </segue>
+                                    <segue destination="KZm-gt-UGW" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="Zb6-kH-AGa"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -2907,7 +2871,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="RQz-2g-gHN" kind="show" id="sMi-Iw-TPM"/>
+                                    <segue destination="RQz-2g-gHN" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="sMi-Iw-TPM"/>
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1ih-hg-krc">
@@ -2984,7 +2948,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="96R-TD-IvX" kind="show" id="ett-wU-Ckd"/>
+                                    <segue destination="96R-TD-IvX" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="ett-wU-Ckd"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Avi-yX-bnc">
@@ -3047,7 +3011,7 @@
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
                                     <action selector="stopPlay:" destination="96R-TD-IvX" eventType="touchUpInside" id="mcS-SA-ZZb"/>
-                                    <segue destination="KI4-EN-AbS" kind="show" id="knd-OU-rsI"/>
+                                    <segue destination="KI4-EN-AbS" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="knd-OU-rsI"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GFN-iL-EQO">
@@ -3101,7 +3065,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="GHl-je-2ob" kind="show" id="55o-0I-cCz"/>
+                                    <segue destination="GHl-je-2ob" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="55o-0I-cCz"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="inRepair" translatesAutoresizingMaskIntoConstraints="NO" id="d5s-kh-lcS">
@@ -3216,7 +3180,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="opa-Sj-BTe" kind="show" id="3xE-Qy-RhW"/>
+                                    <segue destination="opa-Sj-BTe" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="3xE-Qy-RhW"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kjx-8s-PiP">
@@ -3228,7 +3192,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="6Ht-vd-tB0" kind="show" id="nVs-aD-mZX"/>
+                                    <segue destination="6Ht-vd-tB0" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="nVs-aD-mZX"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D0Z-CD-ryk">
@@ -3262,7 +3226,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="FGU-y8-g2x" kind="show" id="SDU-wv-zQk"/>
+                                    <segue destination="FGU-y8-g2x" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="SDU-wv-zQk"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -3327,9 +3291,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="gUC-hB-SAV" kind="show" id="Qby-tl-0Dd">
-                                        <nil key="action"/>
-                                    </segue>
+                                    <segue destination="gUC-hB-SAV" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Qby-tl-0Dd"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -3362,9 +3324,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="9vH-PK-96N" kind="show" id="YD0-1x-aor">
-                                        <nil key="action"/>
-                                    </segue>
+                                    <segue destination="9vH-PK-96N" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="YD0-1x-aor"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KfH-vH-LMO">
@@ -3487,7 +3447,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="zLo-1i-QEE" kind="show" id="fGX-M6-BN8"/>
+                                    <segue destination="zLo-1i-QEE" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="fGX-M6-BN8"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="inRepair" translatesAutoresizingMaskIntoConstraints="NO" id="25Z-IT-coU">
@@ -3532,7 +3492,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LoM-Zs-CQu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5290" y="5480"/>
+            <point key="canvasLocation" x="5334" y="5480"/>
         </scene>
         <!--VideoB View Controller-->
         <scene sceneID="0Bu-ak-Ude">
@@ -3556,9 +3516,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="gsv-m5-t3M" kind="show" id="G3p-aR-BCz">
-                                        <nil key="action"/>
-                                    </segue>
+                                    <segue destination="gsv-m5-t3M" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="G3p-aR-BCz"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cAx-6j-teP">
@@ -3600,7 +3558,7 @@
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
                                     <action selector="StopPlay:" destination="gsv-m5-t3M" eventType="touchUpInside" id="FhD-n5-qaz"/>
-                                    <segue destination="ZbA-ni-PQ8" kind="show" id="JYE-AG-Qgz"/>
+                                    <segue destination="ZbA-ni-PQ8" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="JYE-AG-Qgz"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NnX-ig-hYQ">
@@ -3677,7 +3635,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="bCK-v6-rL3" kind="show" id="Fmt-Bz-3B3"/>
+                                    <segue destination="bCK-v6-rL3" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Fmt-Bz-3B3"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -3709,7 +3667,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="oJX-KZ-GyQ" kind="show" id="hx4-sS-NmS"/>
+                                    <segue destination="oJX-KZ-GyQ" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="hx4-sS-NmS"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -3780,7 +3738,7 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="1Lw-To-BUt" kind="show" id="GCE-FD-5Cm"/>
+                                    <segue destination="1Lw-To-BUt" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="GCE-FD-5Cm"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3u3-4c-Tgm">
@@ -3906,10 +3864,10 @@
         <image name="yellow" width="120" height="455"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="gj4-M8-Y2B"/>
+        <segue reference="X4Z-pG-jUf"/>
         <segue reference="WAe-30-NMT"/>
-        <segue reference="9Nd-Sh-Nsg"/>
         <segue reference="v4K-za-Vzl"/>
         <segue reference="vyP-d7-00H"/>
+        <segue reference="Vsx-cu-3UI"/>
     </inferredMetricsTieBreakers>
 </document>

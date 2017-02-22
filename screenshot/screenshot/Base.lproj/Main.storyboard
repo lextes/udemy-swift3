@@ -22,7 +22,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fondo3.png" translatesAutoresizingMaskIntoConstraints="NO" id="c2R-Vz-6LL">
-                                <rect key="frame" x="0.0" y="0.0" width="748" height="1004"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Screenshot" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Z7e-jN-Nte">
