@@ -2984,9 +2984,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="96R-TD-IvX" kind="show" id="rrC-m1-Ihp">
-                                        <nil key="action"/>
-                                    </segue>
+                                    <segue destination="96R-TD-IvX" kind="show" id="ett-wU-Ckd"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Avi-yX-bnc">
@@ -3026,10 +3024,10 @@
             </objects>
             <point key="canvasLocation" x="2662.5" y="4048.8281249999995"/>
         </scene>
-        <!--View Controller-->
+        <!--Heroic View Controller-->
         <scene sceneID="d9J-Yx-vp6">
             <objects>
-                <viewController id="96R-TD-IvX" sceneMemberID="viewController">
+                <viewController id="96R-TD-IvX" customClass="heroicViewController" customModule="First_Unit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3Np-Dg-wag"/>
                         <viewControllerLayoutGuide type="bottom" id="eGB-GD-jkH"/>
@@ -3048,15 +3046,17 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
-                                    <segue destination="KI4-EN-AbS" kind="show" id="k0h-cH-ACR">
-                                        <nil key="action"/>
-                                    </segue>
+                                    <action selector="stopPlay:" destination="96R-TD-IvX" eventType="touchUpInside" id="mcS-SA-ZZb"/>
+                                    <segue destination="KI4-EN-AbS" kind="show" id="knd-OU-rsI"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GFN-iL-EQO">
-                                <rect key="frame" x="256" y="601" width="256.00000000000091" height="160.99999999999909"/>
+                                <rect key="frame" x="256" y="570" width="256.00000000000091" height="160.99999999999909"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title=" " image="castle"/>
+                                <connections>
+                                    <action selector="playButtonA:" destination="96R-TD-IvX" eventType="touchUpInside" id="XKs-1z-pmj"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -3577,10 +3577,10 @@
             </objects>
             <point key="canvasLocation" x="2660.9375" y="5479.6875"/>
         </scene>
-        <!--View Controller-->
+        <!--Multiple SoundsB View Controller-->
         <scene sceneID="8w2-q1-8ZK">
             <objects>
-                <viewController id="gsv-m5-t3M" sceneMemberID="viewController">
+                <viewController id="gsv-m5-t3M" customClass="MultipleSoundsBViewController" customModule="First_Unit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="LfP-Z4-VsF"/>
                         <viewControllerLayoutGuide type="bottom" id="WMR-YL-E2x"/>
@@ -3599,7 +3599,53 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
+                                    <action selector="StopPlay:" destination="gsv-m5-t3M" eventType="touchUpInside" id="FhD-n5-qaz"/>
                                     <segue destination="ZbA-ni-PQ8" kind="show" id="JYE-AG-Qgz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NnX-ig-hYQ">
+                                <rect key="frame" x="136" y="423" width="150" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title=" " image="typewriter"/>
+                                <connections>
+                                    <action selector="playButon1:" destination="gsv-m5-t3M" eventType="touchUpInside" id="Hdx-Nu-ocm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D07-bV-yHB">
+                                <rect key="frame" x="515" y="437" width="144" height="81"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title=" " image="phone"/>
+                                <connections>
+                                    <action selector="playButon3:" destination="gsv-m5-t3M" eventType="touchUpInside" id="68i-4Q-0Aa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V6u-Hn-VS7">
+                                <rect key="frame" x="151" y="600" width="112" height="112"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title=" " image="radio"/>
+                                <connections>
+                                    <action selector="playButon4:" destination="gsv-m5-t3M" eventType="touchUpInside" id="h9c-au-2Pp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4aq-UQ-aKt">
+                                <rect key="frame" x="327" y="606" width="153" height="106"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title=" " image="tv"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SSo-3N-qsP">
+                                <rect key="frame" x="515" y="602" width="132" height="107"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title=" " image="proyector"/>
+                                <connections>
+                                    <action selector="playButon5:" destination="gsv-m5-t3M" eventType="touchUpInside" id="UaB-wt-rcS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xdD-Y4-LkT">
+                                <rect key="frame" x="349" y="399" width="70" height="144"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title=" " image="camera"/>
+                                <connections>
+                                    <action selector="playButon2:" destination="gsv-m5-t3M" eventType="touchUpInside" id="97t-iW-ctf"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -3775,6 +3821,7 @@
         <image name="back_from" width="238" height="137"/>
         <image name="black" width="119" height="454"/>
         <image name="blue" width="120" height="456"/>
+        <image name="camera" width="102" height="220"/>
         <image name="castle" width="251" height="161"/>
         <image name="flechaBACK" width="484" height="336"/>
         <image name="flechaFORW" width="484" height="336"/>
@@ -3809,7 +3856,9 @@
         <image name="niño5" width="285" height="262"/>
         <image name="niño6" width="285" height="262"/>
         <image name="niños_bicicleta" width="400" height="275"/>
+        <image name="phone" width="186" height="108"/>
         <image name="pink" width="119" height="455"/>
+        <image name="proyector" width="166" height="139"/>
         <image name="prueba_test1" width="546" height="713"/>
         <image name="prueba_test10" width="555" height="733"/>
         <image name="prueba_test2" width="546" height="713"/>
@@ -3820,6 +3869,7 @@
         <image name="prueba_test7" width="555" height="732"/>
         <image name="prueba_test8" width="556" height="732"/>
         <image name="prueba_test9" width="556" height="732"/>
+        <image name="radio" width="162" height="167"/>
         <image name="recuadros" width="698" height="788"/>
         <image name="red" width="120" height="456"/>
         <image name="socialUnit1_1" width="522" height="698"/>
@@ -3850,6 +3900,8 @@
         <image name="treeE" width="407" height="205"/>
         <image name="treeF" width="407" height="205"/>
         <image name="treeG" width="407" height="205"/>
+        <image name="tv" width="190" height="135"/>
+        <image name="typewriter" width="202" height="132"/>
         <image name="white" width="118" height="458"/>
         <image name="yellow" width="120" height="455"/>
     </resources>

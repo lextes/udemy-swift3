@@ -24,6 +24,14 @@
 		84B0CA6D1E539ED30011E552 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B0CA6C1E539ED30011E552 /* TextViewController.swift */; };
 		84B5D73C1E5D1532007B5858 /* sample.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 84B5D73B1E5D1532007B5858 /* sample.mp4 */; };
 		84B5D73E1E5D179B007B5858 /* VideoBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B5D73D1E5D179B007B5858 /* VideoBViewController.swift */; };
+		84B5D7401E5D2307007B5858 /* heroicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B5D73F1E5D2307007B5858 /* heroicViewController.swift */; };
+		84B5D7421E5D236E007B5858 /* heroiChildren.wav in Resources */ = {isa = PBXBuildFile; fileRef = 84B5D7411E5D236E007B5858 /* heroiChildren.wav */; };
+		84B5D7441E5D2B07007B5858 /* camera.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84B5D7431E5D2B07007B5858 /* camera.mp3 */; };
+		84B5D7481E5D2B23007B5858 /* phone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84B5D7451E5D2B23007B5858 /* phone.mp3 */; };
+		84B5D7491E5D2B23007B5858 /* proyector.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84B5D7461E5D2B23007B5858 /* proyector.mp3 */; };
+		84B5D74A1E5D2B23007B5858 /* radio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84B5D7471E5D2B23007B5858 /* radio.mp3 */; };
+		84B5D74C1E5D2B2C007B5858 /* typewriter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84B5D74B1E5D2B2C007B5858 /* typewriter.mp3 */; };
+		84B5D74E1E5D2B84007B5858 /* MultipleSoundsBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B5D74D1E5D2B84007B5858 /* MultipleSoundsBViewController.swift */; };
 		84BBEDFD1E5CADB70094E162 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BBEDFC1E5CADB60094E162 /* VideoViewController.swift */; };
 		84D73B081E55FAB900896D40 /* AppearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D73B071E55FAB900896D40 /* AppearViewController.swift */; };
 		84E02C381E504701006C3044 /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E02C371E504701006C3044 /* DrawViewController.swift */; };
@@ -54,6 +62,14 @@
 		84B0CA6C1E539ED30011E552 /* TextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
 		84B5D73B1E5D1532007B5858 /* sample.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.mp4; sourceTree = "<group>"; };
 		84B5D73D1E5D179B007B5858 /* VideoBViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VideoBViewController.swift; path = webview/VideoBViewController.swift; sourceTree = SOURCE_ROOT; };
+		84B5D73F1E5D2307007B5858 /* heroicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = heroicViewController.swift; path = webview/heroicViewController.swift; sourceTree = SOURCE_ROOT; };
+		84B5D7411E5D236E007B5858 /* heroiChildren.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = heroiChildren.wav; sourceTree = "<group>"; };
+		84B5D7431E5D2B07007B5858 /* camera.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = camera.mp3; sourceTree = "<group>"; };
+		84B5D7451E5D2B23007B5858 /* phone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = phone.mp3; sourceTree = "<group>"; };
+		84B5D7461E5D2B23007B5858 /* proyector.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = proyector.mp3; sourceTree = "<group>"; };
+		84B5D7471E5D2B23007B5858 /* radio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = radio.mp3; sourceTree = "<group>"; };
+		84B5D74B1E5D2B2C007B5858 /* typewriter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = typewriter.mp3; sourceTree = "<group>"; };
+		84B5D74D1E5D2B84007B5858 /* MultipleSoundsBViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MultipleSoundsBViewController.swift; path = webview/MultipleSoundsBViewController.swift; sourceTree = SOURCE_ROOT; };
 		84BBEDFC1E5CADB60094E162 /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VideoViewController.swift; path = webview/VideoViewController.swift; sourceTree = SOURCE_ROOT; };
 		84BBEDFF1E5CAE120094E162 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		84BBEE001E5CAE120094E162 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
@@ -117,8 +133,14 @@
 		84B0CA231E535AAB0011E552 /* sounds */ = {
 			isa = PBXGroup;
 			children = (
+				84B5D7411E5D236E007B5858 /* heroiChildren.wav */,
 				8485F0B01E54D1A300C457DF /* orchestral.mp3 */,
+				84B5D7431E5D2B07007B5858 /* camera.mp3 */,
 				8485F0B21E54D41000C457DF /* violin.mp3 */,
+				84B5D7451E5D2B23007B5858 /* phone.mp3 */,
+				84B5D7461E5D2B23007B5858 /* proyector.mp3 */,
+				84B5D7471E5D2B23007B5858 /* radio.mp3 */,
+				84B5D74B1E5D2B2C007B5858 /* typewriter.mp3 */,
 				8485F0B41E54D44F00C457DF /* starlight.mp3 */,
 				84B0CA241E535ABB0011E552 /* boing.mp3 */,
 			);
@@ -167,6 +189,8 @@
 				84BBEDFC1E5CADB60094E162 /* VideoViewController.swift */,
 				84E932731E5CC04400F1E768 /* Text2ViewController.swift */,
 				84B5D73D1E5D179B007B5858 /* VideoBViewController.swift */,
+				84B5D73F1E5D2307007B5858 /* heroicViewController.swift */,
+				84B5D74D1E5D2B84007B5858 /* MultipleSoundsBViewController.swift */,
 			);
 			name = dinamics;
 			sourceTree = "<group>";
@@ -250,14 +274,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B5D74C1E5D2B2C007B5858 /* typewriter.mp3 in Resources */,
 				8485F0B11E54D1A300C457DF /* orchestral.mp3 in Resources */,
 				84A6CB2E1E458C240084C8E5 /* LaunchScreen.storyboard in Resources */,
 				8485F0B51E54D44F00C457DF /* starlight.mp3 in Resources */,
 				84A6CB2B1E458C240084C8E5 /* Assets.xcassets in Resources */,
 				84E932701E5CB29400F1E768 /* trans.mp4 in Resources */,
+				84B5D7421E5D236E007B5858 /* heroiChildren.wav in Resources */,
+				84B5D74A1E5D2B23007B5858 /* radio.mp3 in Resources */,
 				84B0CA251E535ABB0011E552 /* boing.mp3 in Resources */,
+				84B5D7481E5D2B23007B5858 /* phone.mp3 in Resources */,
+				84B5D7441E5D2B07007B5858 /* camera.mp3 in Resources */,
 				84B5D73C1E5D1532007B5858 /* sample.mp4 in Resources */,
 				84A6CB291E458C240084C8E5 /* Main.storyboard in Resources */,
+				84B5D7491E5D2B23007B5858 /* proyector.mp3 in Resources */,
 				8485F0B31E54D41000C457DF /* violin.mp3 in Resources */,
 				8423F0D31E5BFBAF00F12335 /* animated3.html in Resources */,
 				8423F0D41E5BFBAF00F12335 /* animated3.hyperesources in Resources */,
@@ -282,7 +312,9 @@
 				84B0CA6D1E539ED30011E552 /* TextViewController.swift in Sources */,
 				84B5D73E1E5D179B007B5858 /* VideoBViewController.swift in Sources */,
 				84BBEDFD1E5CADB70094E162 /* VideoViewController.swift in Sources */,
+				84B5D74E1E5D2B84007B5858 /* MultipleSoundsBViewController.swift in Sources */,
 				84AB44511E5237F00087E2AB /* AnimatedButtonViewController.swift in Sources */,
+				84B5D7401E5D2307007B5858 /* heroicViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
