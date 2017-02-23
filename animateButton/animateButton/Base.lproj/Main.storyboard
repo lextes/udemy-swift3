@@ -21,14 +21,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gop-AK-Cib">
-                                <rect key="frame" x="246" y="719" width="277" height="193"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="flechaFORW"/>
-                                <connections>
-                                    <action selector="sync:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rbh-cQ-mOe"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cuadro1" translatesAutoresizingMaskIntoConstraints="NO" id="6NJ-Ba-W7W">
                                 <rect key="frame" x="157" y="201" width="457" height="414"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -48,6 +40,14 @@
                                 <rect key="frame" x="602" y="822" width="51" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </switch>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gop-AK-Cib">
+                                <rect key="frame" x="232" y="694" width="277" height="193"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="flechaFORW"/>
+                                <connections>
+                                    <action selector="sync:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rbh-cQ-mOe"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.68187206030000003" green="0.85501881540000002" blue="0.69457533380000003" alpha="1" colorSpace="calibratedRGB"/>
                     </view>

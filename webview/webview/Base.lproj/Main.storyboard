@@ -2047,10 +2047,10 @@
             </objects>
             <point key="canvasLocation" x="6770" y="159"/>
         </scene>
-        <!--View Controller-->
+        <!--Animated2 Button View Controller-->
         <scene sceneID="L7h-hx-gd8">
             <objects>
-                <viewController id="eO5-ir-yeT" sceneMemberID="viewController">
+                <viewController id="eO5-ir-yeT" customClass="Animated2ButtonViewController" customModule="First_Unit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="42E-hL-bNN"/>
                         <viewControllerLayoutGuide type="bottom" id="kym-NM-S8o"/>
@@ -2071,23 +2071,28 @@
                                     <segue destination="Rq8-13-4uF" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="Ggg-3w-lHs"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4n4-mW-wSi">
-                                <rect key="frame" x="75" y="364" width="259" height="165"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EbD-1C-F99">
+                                <rect key="frame" x="20" y="361" width="366" height="502"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title=" " image="fotoA"/>
+                                <state key="normal" title=" " image="fotosAB"/>
+                                <connections>
+                                    <action selector="sync:" destination="eO5-ir-yeT" eventType="touchUpInside" id="DEg-8o-5B2"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gc5-TI-5pg">
-                                <rect key="frame" x="75" y="660" width="259" height="165"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fotosCD" translatesAutoresizingMaskIntoConstraints="NO" id="KWS-3p-sF7">
+                                <rect key="frame" x="20" y="357" width="366" height="505"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title=" " image="fotoB"/>
-                            </button>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="popUp" destination="KWS-3p-sF7" id="mdf-zL-dfy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ieu-oy-TG7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2675.78125" y="878.90625"/>
+            <point key="canvasLocation" x="2662.5" y="878.90625"/>
         </scene>
         <!--Text View Controller-->
         <scene sceneID="Taj-sL-aNU">
@@ -2153,7 +2158,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vml-De-Xol" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3363.28125" y="875.9765625"/>
+            <point key="canvasLocation" x="3331" y="878"/>
         </scene>
         <!--Draw View Controller-->
         <scene sceneID="87y-V1-6ni">
@@ -2277,7 +2282,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oa9-fy-Tpy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4047.65625" y="875.9765625"/>
+            <point key="canvasLocation" x="4013" y="878"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ayU-md-YxW">
@@ -2309,7 +2314,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gcz-RZ-vOy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4726" y="876"/>
+            <point key="canvasLocation" x="4695" y="879"/>
         </scene>
         <!--Video View Controller-->
         <scene sceneID="gOr-vP-bJS">
@@ -2349,7 +2354,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0cp-Kp-ier" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2675.78125" y="1590.8203125"/>
+            <point key="canvasLocation" x="2661" y="1591"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="By8-gi-8MD">
@@ -2381,7 +2386,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1m1-bb-3Qg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3362.5" y="1587.890625"/>
+            <point key="canvasLocation" x="3330" y="1588"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="OE7-Jk-UmC">
@@ -2502,7 +2507,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vbC-tg-Zfl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4047.65625" y="1590.8203125"/>
+            <point key="canvasLocation" x="4013" y="1591"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="b8I-7V-0Lt">
@@ -2534,7 +2539,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="shp-T5-qQ0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4726" y="1588"/>
+            <point key="canvasLocation" x="4695" y="1591"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Jqp-l4-jHj">
@@ -3788,8 +3793,8 @@
         <image name="foto1" width="400" height="267"/>
         <image name="foto2" width="400" height="295"/>
         <image name="foto3" width="400" height="267"/>
-        <image name="fotoA" width="400" height="286"/>
-        <image name="fotoB" width="945" height="631"/>
+        <image name="fotosAB" width="441" height="612"/>
+        <image name="fotosCD" width="441" height="612"/>
         <image name="geography1_1" width="807" height="1027"/>
         <image name="geography1_2" width="807" height="1027"/>
         <image name="green" width="119" height="455"/>
@@ -3864,8 +3869,8 @@
         <image name="yellow" width="120" height="455"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="X4Z-pG-jUf"/>
         <segue reference="WAe-30-NMT"/>
+        <segue reference="xNJ-Rs-Qsf"/>
         <segue reference="v4K-za-Vzl"/>
         <segue reference="vyP-d7-00H"/>
         <segue reference="Vsx-cu-3UI"/>
