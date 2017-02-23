@@ -7,19 +7,34 @@
 //
 
 import UIKit
+import AVFoundation
+
 class Animated2ButtonViewController: UIViewController {
-    
-    
+
    
     @IBOutlet weak var popUp: UIVisualEffectView!
  
     var originalCenter: CGPoint!
+    var btnSound2: AVAudioPlayer!
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         popUp.alpha = 0
         originalCenter = popUp.center
+        
+        let path = Bundle.main.path(forResource: "up", ofType: "mp3")
+        let soundURL = URL(fileURLWithPath: path!)
+        
+        do {
+            try btnSound2 = AVAudioPlayer(contentsOf: soundURL)
+            btnSound2.prepareToPlay()
+            
+        }catch let err as NSError{
+            print(err.debugDescription)
+        }
+        
     }
     
    
@@ -39,6 +54,17 @@ class Animated2ButtonViewController: UIViewController {
             
         }
         popUp.alpha = 1
-        
+        }
+    
+    @IBAction func numberPressed(sender: UIButton){
+        playSound()
     }
+    
+    func playSound() {
+        if btnSound2.isPlaying{
+            btnSound2.stop()
+        }
+        btnSound2.play()
+    }
+    
 }

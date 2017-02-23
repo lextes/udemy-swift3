@@ -18,6 +18,7 @@ class MultipleSoundsBViewController: UIViewController {
     var but5 = AVAudioPlayer()
 
 
+
     var stopPlay = AVAudioPlayer()
 
     

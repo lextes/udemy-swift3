@@ -13,7 +13,6 @@
 		84BBEDE81E5CA2350094E162 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BBEDE71E5CA2350094E162 /* Assets.xcassets */; };
 		84BBEDEB1E5CA2350094E162 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BBEDE91E5CA2350094E162 /* LaunchScreen.storyboard */; };
 		84BBEDF61E5CA7CC0094E162 /* trans.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 84BBEDF51E5CA7CC0094E162 /* trans.mp4 */; };
-		84E932721E5CBC1700F1E768 /* View2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E932711E5CBC1700F1E768 /* View2Controller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +26,6 @@
 		84BBEDF51E5CA7CC0094E162 /* trans.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = trans.mp4; sourceTree = "<group>"; };
 		84BBEDF81E5CA8490094E162 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		84BBEDF91E5CA8490094E162 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
-		84E932711E5CBC1700F1E768 /* View2Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View2Controller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +61,6 @@
 			children = (
 				84BBEDE01E5CA2350094E162 /* AppDelegate.swift */,
 				84BBEDE21E5CA2350094E162 /* ViewController.swift */,
-				84E932711E5CBC1700F1E768 /* View2Controller.swift */,
 				84BBEDE41E5CA2350094E162 /* Main.storyboard */,
 				84BBEDE71E5CA2350094E162 /* Assets.xcassets */,
 				84BBEDF51E5CA7CC0094E162 /* trans.mp4 */,
@@ -157,7 +154,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				84BBEDE31E5CA2350094E162 /* ViewController.swift in Sources */,
-				84E932721E5CBC1700F1E768 /* View2Controller.swift in Sources */,
 				84BBEDE11E5CA2350094E162 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

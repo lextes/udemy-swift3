@@ -32,6 +32,7 @@
 		84B5D74A1E5D2B23007B5858 /* radio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84B5D7471E5D2B23007B5858 /* radio.mp3 */; };
 		84B5D74C1E5D2B2C007B5858 /* typewriter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84B5D74B1E5D2B2C007B5858 /* typewriter.mp3 */; };
 		84B5D74E1E5D2B84007B5858 /* MultipleSoundsBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B5D74D1E5D2B84007B5858 /* MultipleSoundsBViewController.swift */; };
+		84B978321E5F79BD00991511 /* up.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84B978311E5F79BD00991511 /* up.mp3 */; };
 		84BBEDFD1E5CADB70094E162 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BBEDFC1E5CADB60094E162 /* VideoViewController.swift */; };
 		84D73B081E55FAB900896D40 /* AppearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D73B071E55FAB900896D40 /* AppearViewController.swift */; };
 		84E02C381E504701006C3044 /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E02C371E504701006C3044 /* DrawViewController.swift */; };
@@ -71,6 +72,7 @@
 		84B5D7471E5D2B23007B5858 /* radio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = radio.mp3; sourceTree = "<group>"; };
 		84B5D74B1E5D2B2C007B5858 /* typewriter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = typewriter.mp3; sourceTree = "<group>"; };
 		84B5D74D1E5D2B84007B5858 /* MultipleSoundsBViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MultipleSoundsBViewController.swift; path = webview/MultipleSoundsBViewController.swift; sourceTree = SOURCE_ROOT; };
+		84B978311E5F79BD00991511 /* up.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = up.mp3; sourceTree = "<group>"; };
 		84BBEDFC1E5CADB60094E162 /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VideoViewController.swift; path = webview/VideoViewController.swift; sourceTree = SOURCE_ROOT; };
 		84BBEDFF1E5CAE120094E162 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		84BBEE001E5CAE120094E162 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
@@ -140,6 +142,7 @@
 				84B5D7431E5D2B07007B5858 /* camera.mp3 */,
 				8485F0B21E54D41000C457DF /* violin.mp3 */,
 				84B5D7451E5D2B23007B5858 /* phone.mp3 */,
+				84B978311E5F79BD00991511 /* up.mp3 */,
 				84B5D7461E5D2B23007B5858 /* proyector.mp3 */,
 				84B5D7471E5D2B23007B5858 /* radio.mp3 */,
 				84B5D74B1E5D2B2C007B5858 /* typewriter.mp3 */,
@@ -292,6 +295,7 @@
 				84A6CB291E458C240084C8E5 /* Main.storyboard in Resources */,
 				84B5D7491E5D2B23007B5858 /* proyector.mp3 in Resources */,
 				8485F0B31E54D41000C457DF /* violin.mp3 in Resources */,
+				84B978321E5F79BD00991511 /* up.mp3 in Resources */,
 				8423F0D31E5BFBAF00F12335 /* animated3.html in Resources */,
 				8423F0D41E5BFBAF00F12335 /* animated3.hyperesources in Resources */,
 			);

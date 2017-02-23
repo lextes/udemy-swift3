@@ -17,7 +17,8 @@ class VideoBViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        // Ubicación del archivo y reproducirlo
         
         let videoString: String? = Bundle.main.path(forResource: "sample", ofType: ".mp4")
         if let url = videoString{
@@ -27,11 +28,11 @@ class VideoBViewController: UIViewController {
         }
     }
     
-    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
     @IBAction func playVideo(_ sender: Any) {
         self.present(self.playerController, animated: true, completion: {
             
