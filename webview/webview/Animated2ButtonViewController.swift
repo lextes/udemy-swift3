@@ -11,13 +11,11 @@ import AVFoundation
 
 class Animated2ButtonViewController: UIViewController {
 
-   
     @IBOutlet weak var popUp: UIVisualEffectView!
  
     var originalCenter: CGPoint!
     var btnSound2: AVAudioPlayer!
 
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
