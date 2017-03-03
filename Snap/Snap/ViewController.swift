@@ -23,7 +23,8 @@ class ViewController: UIViewController {
         self.view.layoutIfNeeded()
         
         for button in Buttons {
-            var oriPos = button.center
+            let oriPos = button.center
+            
             button.center = CGPoint(x: self.view.frame.width / 2, y: -button.frame.height)
             
             snap = UISnapBehavior(item: button, snapTo: oriPos)
