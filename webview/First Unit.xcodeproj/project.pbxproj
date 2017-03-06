@@ -34,6 +34,8 @@
 		84B5D74E1E5D2B84007B5858 /* MultipleSoundsBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B5D74D1E5D2B84007B5858 /* MultipleSoundsBViewController.swift */; };
 		84B978321E5F79BD00991511 /* up.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84B978311E5F79BD00991511 /* up.mp3 */; };
 		84BBEDFD1E5CADB70094E162 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BBEDFC1E5CADB60094E162 /* VideoViewController.swift */; };
+		84CF09C21E6A6CCA00F65291 /* JNWSpringAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CF09C11E6A6CCA00F65291 /* JNWSpringAnimation.m */; };
+		84CF09C51E6A6CED00F65291 /* NSValue+JNWAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CF09C41E6A6CED00F65291 /* NSValue+JNWAdditions.m */; };
 		84D73B081E55FAB900896D40 /* AppearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D73B071E55FAB900896D40 /* AppearViewController.swift */; };
 		84E02C381E504701006C3044 /* DrawViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E02C371E504701006C3044 /* DrawViewController.swift */; };
 		84E9326C1E5CB0E600F1E768 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84BBEDFF1E5CAE120094E162 /* AVFoundation.framework */; };
@@ -76,6 +78,11 @@
 		84BBEDFC1E5CADB60094E162 /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VideoViewController.swift; path = webview/VideoViewController.swift; sourceTree = SOURCE_ROOT; };
 		84BBEDFF1E5CAE120094E162 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		84BBEE001E5CAE120094E162 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		84CF09BF1E6A6CC900F65291 /* First Unit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "First Unit-Bridging-Header.h"; sourceTree = "<group>"; };
+		84CF09C01E6A6CCA00F65291 /* JNWSpringAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JNWSpringAnimation.h; path = ../JNWSpringAnimation.h; sourceTree = "<group>"; };
+		84CF09C11E6A6CCA00F65291 /* JNWSpringAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JNWSpringAnimation.m; path = ../JNWSpringAnimation.m; sourceTree = "<group>"; };
+		84CF09C31E6A6CED00F65291 /* NSValue+JNWAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSValue+JNWAdditions.h"; path = "../NSValue+JNWAdditions.h"; sourceTree = "<group>"; };
+		84CF09C41E6A6CED00F65291 /* NSValue+JNWAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSValue+JNWAdditions.m"; path = "../NSValue+JNWAdditions.m"; sourceTree = "<group>"; };
 		84D73B071E55FAB900896D40 /* AppearViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppearViewController.swift; sourceTree = "<group>"; };
 		84E02C371E504701006C3044 /* DrawViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawViewController.swift; sourceTree = "<group>"; };
 		84E9326F1E5CB29400F1E768 /* trans.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = trans.mp4; sourceTree = "<group>"; };
@@ -103,6 +110,7 @@
 				84A6CB221E458C240084C8E5 /* WebView */,
 				84A6CB211E458C240084C8E5 /* Products */,
 				84BBEDFE1E5CAE120094E162 /* Frameworks */,
+				84CF09BF1E6A6CC900F65291 /* First Unit-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -117,6 +125,7 @@
 		84A6CB221E458C240084C8E5 /* WebView */ = {
 			isa = PBXGroup;
 			children = (
+				84CF09C61E6A6D3D00F65291 /* JNWSpringAnimation */,
 				84E9326E1E5CB26300F1E768 /* video */,
 				84F0DC8B1E58233600B8D2F8 /* Animated */,
 				84B0CA231E535AAB0011E552 /* sounds */,
@@ -159,6 +168,17 @@
 				84BBEE001E5CAE120094E162 /* AVKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84CF09C61E6A6D3D00F65291 /* JNWSpringAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				84CF09C31E6A6CED00F65291 /* NSValue+JNWAdditions.h */,
+				84CF09C41E6A6CED00F65291 /* NSValue+JNWAdditions.m */,
+				84CF09C01E6A6CCA00F65291 /* JNWSpringAnimation.h */,
+				84CF09C11E6A6CCA00F65291 /* JNWSpringAnimation.m */,
+			);
+			name = JNWSpringAnimation;
 			sourceTree = "<group>";
 		};
 		84E02C121E4FEB3E006C3044 /* science */ = {
@@ -253,6 +273,7 @@
 					84A6CB1F1E458C240084C8E5 = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = 8XA58BLP47;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -309,6 +330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84E02C381E504701006C3044 /* DrawViewController.swift in Sources */,
+				84CF09C21E6A6CCA00F65291 /* JNWSpringAnimation.m in Sources */,
 				84B0CA4D1E537FD20011E552 /* AnimatedAppearViewController.swift in Sources */,
 				84E932741E5CC04400F1E768 /* Text2ViewController.swift in Sources */,
 				84F0DC911E58235D00B8D2F8 /* animated1.swift in Sources */,
@@ -319,6 +341,7 @@
 				84F0A1F11E5F4EE70030AC0A /* Animated2ButtonViewController.swift in Sources */,
 				84B0CA6D1E539ED30011E552 /* TextViewController.swift in Sources */,
 				84B5D73E1E5D179B007B5858 /* VideoBViewController.swift in Sources */,
+				84CF09C51E6A6CED00F65291 /* NSValue+JNWAdditions.m in Sources */,
 				84BBEDFD1E5CADB70094E162 /* VideoViewController.swift in Sources */,
 				84B5D74E1E5D2B84007B5858 /* MultipleSoundsBViewController.swift in Sources */,
 				84AB44511E5237F00087E2AB /* AnimatedButtonViewController.swift in Sources */,
@@ -445,11 +468,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 8XA58BLP47;
 				INFOPLIST_FILE = WebView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wexford.WebView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "First Unit-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -458,11 +484,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 8XA58BLP47;
 				INFOPLIST_FILE = WebView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wexford.WebView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "First Unit-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

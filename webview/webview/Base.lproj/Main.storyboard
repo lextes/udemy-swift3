@@ -104,7 +104,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jIC-De-WhS">
                                 <rect key="frame" x="82" y="756" width="201" height="122"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.27187074172278358" green="1" blue="0.40732153540549199" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.28627450980392155" green="0.41176470588235292" blue="0.61568627450980395" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="50"/>
                                 <state key="normal" title="1">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -114,9 +114,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wk5-Kb-bXG">
-                                <rect key="frame" x="284" y="756" width="201" height="122"/>
+                                <rect key="frame" x="281" y="756" width="201" height="122"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.94348958329999999" green="0.42458956860000002" blue="0.069669698449999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.12156862745098039" green="0.12156862745098039" blue="0.12156862745098039" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="50"/>
                                 <state key="normal" title="2">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -155,9 +155,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I9l-4e-KpV">
-                                <rect key="frame" x="485" y="756" width="201" height="122"/>
+                                <rect key="frame" x="479" y="756" width="201" height="122"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.74585867910000003" blue="0.081609317020000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.86274509803921573" green="0.34509803921568627" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="50"/>
                                 <state key="normal" title="3">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -167,7 +167,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.29812061143644886" green="0.41650176609198208" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.99607843137254903" green="0.6705882352941176" blue="0.10588235294117647" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cqo-qx-7Ns" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -282,13 +282,17 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iconTecla" translatesAutoresizingMaskIntoConstraints="NO" id="BvP-05-Ov2">
+                                <rect key="frame" x="612" y="231" width="146" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2sM-Os-sLr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2652" y="-2163"/>
+            <point key="canvasLocation" x="2651.5625" y="-2163.28125"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="MP6-Rg-sOZ">
@@ -370,6 +374,10 @@
                                 <fontDescription key="fontDescription" name="ArialHebrew" family="Arial Hebrew" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iconTecla" translatesAutoresizingMaskIntoConstraints="NO" id="VHR-22-QvH">
+                                <rect key="frame" x="576" y="104" width="146" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -499,6 +507,10 @@
                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iconTecla" translatesAutoresizingMaskIntoConstraints="NO" id="EoJ-aq-qHT">
+                                <rect key="frame" x="580" y="104" width="146" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -524,7 +536,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8z4-nD-uzo">
-                                <rect key="frame" x="538" y="915" width="191" height="132"/>
+                                <rect key="frame" x="591" y="909" width="191" height="132"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="flechaFORW"/>
                                 <connections>
@@ -532,7 +544,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MKN-eR-JMz">
-                                <rect key="frame" x="79" y="945" width="25" height="80"/>
+                                <rect key="frame" x="-11" y="926" width="103" height="98"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="red"/>
                                 <connections>
@@ -540,7 +552,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yUM-LQ-MaD">
-                                <rect key="frame" x="119" y="945" width="25" height="80"/>
+                                <rect key="frame" x="74" y="947" width="90" height="73"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="green"/>
                                 <connections>
@@ -548,7 +560,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fhj-OH-5HF">
-                                <rect key="frame" x="161" y="945" width="25" height="80"/>
+                                <rect key="frame" x="162" y="947" width="75" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="blue"/>
                                 <connections>
@@ -556,39 +568,23 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EQD-BU-AWQ">
-                                <rect key="frame" x="201" y="945" width="25" height="80"/>
+                                <rect key="frame" x="249" y="943" width="79" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="pink"/>
                                 <connections>
                                     <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="cQc-dz-X4R"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GNN-DT-anH">
-                                <rect key="frame" x="277" y="945" width="25" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="teal"/>
-                                <connections>
-                                    <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="OM9-2D-gdJ"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jg3-CN-afx">
-                                <rect key="frame" x="241" y="945" width="25" height="80"/>
+                                <rect key="frame" x="325" y="943" width="76" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="yellow"/>
                                 <connections>
                                     <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="6Oq-fZ-b3Z"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wgl-iW-UQg">
-                                <rect key="frame" x="314" y="945" width="25" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" image="white"/>
-                                <connections>
-                                    <action selector="colorsPicked:" destination="1gM-8s-jhD" eventType="touchUpInside" id="xrq-lb-KJN"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IAZ-3K-xVs">
-                                <rect key="frame" x="354" y="945" width="25" height="80"/>
+                                <rect key="frame" x="431" y="947" width="62" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="black"/>
                                 <connections>
@@ -600,13 +596,17 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Whv-Gg-Ezh">
-                                <rect key="frame" x="448" y="954" width="62" height="62"/>
+                                <rect key="frame" x="655" y="894" width="62" height="62"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="ResetIcon"/>
                                 <connections>
                                     <action selector="reset:" destination="1gM-8s-jhD" eventType="touchUpInside" id="o7N-Mp-njo"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iconPaint" translatesAutoresizingMaskIntoConstraints="NO" id="AU6-Od-Cg9">
+                                <rect key="frame" x="613" y="101" width="146" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -727,6 +727,10 @@
                                     <action selector="reset:" destination="1gM-8s-jhD" eventType="touchUpInside" id="XjE-ni-Avz"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iconPaint" translatesAutoresizingMaskIntoConstraints="NO" id="o12-9O-F8P">
+                                <rect key="frame" x="602" y="156" width="146" height="130"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -2522,6 +2526,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="inRepair" translatesAutoresizingMaskIntoConstraints="NO" id="HP2-Kt-RdZ">
                                 <rect key="frame" x="167" y="340" width="402" height="317"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <variation key="displayGamut=P3-heightClass=regular-widthClass=regular" highlightedImage="CuadroA"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jR1-im-ldW">
                                 <rect key="frame" x="518" y="917" width="191" height="132"/>
@@ -3808,6 +3813,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="CuadroA" width="362" height="310"/>
         <image name="ResetIcon" width="416" height="415"/>
         <image name="W LOGO" width="442" height="374"/>
         <image name="artes" width="506" height="337"/>
@@ -3817,8 +3823,8 @@
         <image name="ask4" width="108" height="100"/>
         <image name="ask5" width="108" height="100"/>
         <image name="back_from" width="238" height="137"/>
-        <image name="black" width="119" height="454"/>
-        <image name="blue" width="120" height="456"/>
+        <image name="black" width="240" height="265"/>
+        <image name="blue" width="203" height="236"/>
         <image name="camera" width="102" height="220"/>
         <image name="castle" width="251" height="161"/>
         <image name="flechaBACK" width="484" height="336"/>
@@ -3832,7 +3838,7 @@
         <image name="fotosCD" width="441" height="612"/>
         <image name="geography1_1" width="807" height="1027"/>
         <image name="geography1_2" width="807" height="1027"/>
-        <image name="green" width="119" height="455"/>
+        <image name="green" width="240" height="205"/>
         <image name="hidalgo" width="294" height="281"/>
         <image name="history1_1" width="807" height="1043"/>
         <image name="history1_2" width="807" height="1043"/>
@@ -3842,6 +3848,8 @@
         <image name="history1_6" width="807" height="1013"/>
         <image name="history1_7" width="807" height="1013"/>
         <image name="history1_8" width="807" height="1013"/>
+        <image name="iconPaint" width="406" height="363"/>
+        <image name="iconTecla" width="401" height="327"/>
         <image name="inRepair" width="591" height="591"/>
         <image name="kid1" width="100" height="129"/>
         <image name="kid2" width="100" height="125"/>
@@ -3856,9 +3864,9 @@
         <image name="niño6" width="285" height="262"/>
         <image name="niños_bicicleta" width="400" height="275"/>
         <image name="phone" width="186" height="108"/>
-        <image name="pink" width="119" height="455"/>
+        <image name="pink" width="257" height="246"/>
         <image name="proyector" width="166" height="139"/>
-        <image name="prueba_test1" width="546" height="713"/>
+        <image name="prueba_test1" width="529" height="703"/>
         <image name="prueba_test10" width="555" height="733"/>
         <image name="prueba_test2" width="546" height="713"/>
         <image name="prueba_test3" width="546" height="713"/>
@@ -3870,7 +3878,7 @@
         <image name="prueba_test9" width="556" height="732"/>
         <image name="radio" width="162" height="167"/>
         <image name="recuadros" width="698" height="788"/>
-        <image name="red" width="120" height="456"/>
+        <image name="red" width="215" height="245"/>
         <image name="socialUnit1_1" width="522" height="698"/>
         <image name="socialUnit1_10" width="545" height="706"/>
         <image name="socialUnit1_11" width="743" height="963"/>
@@ -3890,7 +3898,7 @@
         <image name="socialUnit1_7" width="522" height="698"/>
         <image name="socialUnit1_8" width="545" height="706"/>
         <image name="socialUnit1_9" width="743" height="963"/>
-        <image name="teal" width="120" height="461"/>
+        <image name="teal" width="233" height="275"/>
         <image name="tree" width="308" height="318"/>
         <image name="treeA" width="407" height="205"/>
         <image name="treeB" width="407" height="205"/>
@@ -3901,14 +3909,14 @@
         <image name="treeG" width="407" height="205"/>
         <image name="tv" width="190" height="135"/>
         <image name="typewriter" width="202" height="132"/>
-        <image name="white" width="118" height="458"/>
-        <image name="yellow" width="120" height="455"/>
+        <image name="white" width="232" height="256"/>
+        <image name="yellow" width="233" height="218"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="vyP-d7-00H"/>
-        <segue reference="WAe-30-NMT"/>
-        <segue reference="xNJ-Rs-Qsf"/>
-        <segue reference="v4K-za-Vzl"/>
         <segue reference="Vsx-cu-3UI"/>
+        <segue reference="vyP-d7-00H"/>
+        <segue reference="5xb-Rb-tL5"/>
+        <segue reference="v4K-za-Vzl"/>
+        <segue reference="xNJ-Rs-Qsf"/>
     </inferredMetricsTieBreakers>
 </document>
