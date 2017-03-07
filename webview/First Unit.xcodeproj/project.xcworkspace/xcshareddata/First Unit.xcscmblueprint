@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FEA426B247B86D053E4C4644514C611B86F6DFD2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D8BD520A913D9D99E3499E94F4097ECE1645FB47" : 9223372036854775807,
+    "FEA426B247B86D053E4C4644514C611B86F6DFD2" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "A998EFDB-041D-487B-94DF-845168E5235C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D8BD520A913D9D99E3499E94F4097ECE1645FB47" : "..\/Desktop\/iCarousel",
+    "FEA426B247B86D053E4C4644514C611B86F6DFD2" : "udemy-swift3\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "First Unit",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "webview\/First Unit.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:nicklockwood\/iCarousel.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D8BD520A913D9D99E3499E94F4097ECE1645FB47"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:lextes\/udemy-swift3.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FEA426B247B86D053E4C4644514C611B86F6DFD2"
+    }
+  ]
+}

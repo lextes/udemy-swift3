@@ -104,7 +104,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jIC-De-WhS">
                                 <rect key="frame" x="82" y="756" width="201" height="122"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.28627450980392155" green="0.41176470588235292" blue="0.61568627450980395" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.94348958329999999" green="0.42458956860000002" blue="0.069669698449999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="50"/>
                                 <state key="normal" title="1">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -157,7 +157,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I9l-4e-KpV">
                                 <rect key="frame" x="479" y="756" width="201" height="122"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.86274509803921573" green="0.34509803921568627" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.081329414160000002" green="0.2120603003" blue="0.48563701920000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="50"/>
                                 <state key="normal" title="3">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -282,10 +282,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iconTecla" translatesAutoresizingMaskIntoConstraints="NO" id="BvP-05-Ov2">
-                                <rect key="frame" x="612" y="231" width="146" height="130"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -374,10 +370,6 @@
                                 <fontDescription key="fontDescription" name="ArialHebrew" family="Arial Hebrew" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iconTecla" translatesAutoresizingMaskIntoConstraints="NO" id="VHR-22-QvH">
-                                <rect key="frame" x="576" y="104" width="146" height="130"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -507,10 +499,6 @@
                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iconTecla" translatesAutoresizingMaskIntoConstraints="NO" id="EoJ-aq-qHT">
-                                <rect key="frame" x="580" y="104" width="146" height="130"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -603,10 +591,6 @@
                                     <action selector="reset:" destination="1gM-8s-jhD" eventType="touchUpInside" id="o7N-Mp-njo"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iconPaint" translatesAutoresizingMaskIntoConstraints="NO" id="AU6-Od-Cg9">
-                                <rect key="frame" x="613" y="101" width="146" height="130"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -727,10 +711,6 @@
                                     <action selector="reset:" destination="1gM-8s-jhD" eventType="touchUpInside" id="XjE-ni-Avz"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iconPaint" translatesAutoresizingMaskIntoConstraints="NO" id="o12-9O-F8P">
-                                <rect key="frame" x="602" y="156" width="146" height="130"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -979,10 +959,10 @@
             </objects>
             <point key="canvasLocation" x="2663.28125" y="-1484.1796875"/>
         </scene>
-        <!--Animated Button View Controller-->
+        <!--Gift View Controller-->
         <scene sceneID="8aP-3t-i1q">
             <objects>
-                <viewController id="3Td-4r-0Hy" customClass="AnimatedButtonViewController" customModule="First_Unit" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="3Td-4r-0Hy" customClass="GiftViewController" customModule="First_Unit" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Tve-Yr-dQX"/>
                         <viewControllerLayoutGuide type="bottom" id="G2B-lt-Af6"/>
@@ -1016,24 +996,25 @@
                                     <action selector="sync:" destination="3Td-4r-0Hy" eventType="touchUpInside" id="yHG-Zy-POI"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8FN-M4-Mgg">
-                                <rect key="frame" x="541" y="880" width="220" height="144"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mBh-OA-mme">
+                                <rect key="frame" x="391" y="319" width="228" height="175"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="ok"/>
-                                <connections>
-                                    <action selector="ok:" destination="3Td-4r-0Hy" eventType="touchUpInside" id="g2X-Ow-pNc"/>
-                                </connections>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="recuadros" translatesAutoresizingMaskIntoConstraints="NO" id="3IQ-UZ-v6Y">
-                                <rect key="frame" x="84" y="289" width="587" height="625"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZSR-mh-cn4">
+                                <rect key="frame" x="93" y="315" width="233" height="179"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gIg-cf-PqG">
+                                <rect key="frame" x="105" y="640" width="190" height="183"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="popUp" destination="3IQ-UZ-v6Y" id="2rd-Pa-CkR"/>
+                        <outlet property="GifView" destination="mBh-OA-mme" id="Ts1-Fb-6BU"/>
+                        <outlet property="GifView2" destination="gIg-cf-PqG" id="Zjx-RU-EXo"/>
+                        <outlet property="GifView3" destination="ZSR-mh-cn4" id="bUJ-X4-pb0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OL3-D7-XGm" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -3848,8 +3829,6 @@
         <image name="history1_6" width="807" height="1013"/>
         <image name="history1_7" width="807" height="1013"/>
         <image name="history1_8" width="807" height="1013"/>
-        <image name="iconPaint" width="406" height="363"/>
-        <image name="iconTecla" width="401" height="327"/>
         <image name="inRepair" width="591" height="591"/>
         <image name="kid1" width="100" height="129"/>
         <image name="kid2" width="100" height="125"/>
@@ -3866,18 +3845,17 @@
         <image name="phone" width="186" height="108"/>
         <image name="pink" width="257" height="246"/>
         <image name="proyector" width="166" height="139"/>
-        <image name="prueba_test1" width="529" height="703"/>
-        <image name="prueba_test10" width="555" height="733"/>
-        <image name="prueba_test2" width="546" height="713"/>
-        <image name="prueba_test3" width="546" height="713"/>
-        <image name="prueba_test4" width="546" height="713"/>
-        <image name="prueba_test5" width="546" height="713"/>
-        <image name="prueba_test6" width="555" height="732"/>
-        <image name="prueba_test7" width="555" height="732"/>
-        <image name="prueba_test8" width="556" height="732"/>
-        <image name="prueba_test9" width="556" height="732"/>
+        <image name="prueba_test1" width="528" height="702"/>
+        <image name="prueba_test10" width="542" height="719"/>
+        <image name="prueba_test2" width="526" height="700"/>
+        <image name="prueba_test3" width="526" height="700"/>
+        <image name="prueba_test4" width="526" height="700"/>
+        <image name="prueba_test5" width="526" height="700"/>
+        <image name="prueba_test6" width="542" height="719"/>
+        <image name="prueba_test7" width="542" height="719"/>
+        <image name="prueba_test8" width="543" height="725"/>
+        <image name="prueba_test9" width="543" height="719"/>
         <image name="radio" width="162" height="167"/>
-        <image name="recuadros" width="698" height="788"/>
         <image name="red" width="215" height="245"/>
         <image name="socialUnit1_1" width="522" height="698"/>
         <image name="socialUnit1_10" width="545" height="706"/>
