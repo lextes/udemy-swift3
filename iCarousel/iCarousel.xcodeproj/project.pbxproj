@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		840AB34A1E7B3B4700EE48A0 /* classViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840AB3491E7B3B4700EE48A0 /* classViewController.swift */; };
 		840E61A01E6DA312004A8E75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E619F1E6DA312004A8E75 /* AppDelegate.swift */; };
 		840E61A21E6DA312004A8E75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840E61A11E6DA312004A8E75 /* ViewController.swift */; };
 		840E61A51E6DA312004A8E75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840E61A31E6DA312004A8E75 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		840AB3491E7B3B4700EE48A0 /* classViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = classViewController.swift; sourceTree = "<group>"; };
 		840E619C1E6DA312004A8E75 /* iCarousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCarousel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		840E619F1E6DA312004A8E75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		840E61A11E6DA312004A8E75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				840E61A61E6DA312004A8E75 /* Assets.xcassets */,
 				840E61A81E6DA312004A8E75 /* LaunchScreen.storyboard */,
 				840E61AB1E6DA312004A8E75 /* Info.plist */,
+				840AB3491E7B3B4700EE48A0 /* classViewController.swift */,
 			);
 			path = iCarousel;
 			sourceTree = "<group>";
@@ -158,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8423DC771E6DA50200F78B35 /* iCarousel.m in Sources */,
+				840AB34A1E7B3B4700EE48A0 /* classViewController.swift in Sources */,
 				840E61A21E6DA312004A8E75 /* ViewController.swift in Sources */,
 				840E61A01E6DA312004A8E75 /* AppDelegate.swift in Sources */,
 			);
