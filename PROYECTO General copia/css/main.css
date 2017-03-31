@@ -1,0 +1,89 @@
+* {
+    border: px solid red !important;
+}
+
+strong{
+	color: #E99E12;
+}
+
+body {
+   float: left;
+   margin: 10px;
+   padding: 10px;
+   max-width: 100px;
+   height: 300px;
+}
+
+img {
+    width: 20%;
+    height: auto;
+}
+
+.lesson{
+	font-weight: bold;
+	color: #0B8E0E;
+}
+
+.titlePrin{
+	font-weight: bold;
+	color: black;
+}
+
+.unit{
+	font-weight: bold;
+	color: blue;
+
+}
+
+.subTitle{
+	font-size: 450%;
+	color: #E99E12;
+
+}
+
+.textSubtitlePractice{
+	font-size: 120%;
+	margin-bottom: 50px; /*--- Espace from text of subtitles ---> */
+}
+
+.textTester{
+	font-size: 30px;
+}
+
+.containerBorder{
+	float: left;
+	border: 1px solid #0B1D8E;
+	border-radius: 15px;
+}
+
+.testerSquare{
+	margin-top: 50px;
+
+}
+
+.inputText{
+	float: center;
+	font-size: 35px;
+	padding-left: 20px;
+	color: #E99E12;
+	width: 20%;
+    height: auto;
+}
+
+.textExample{
+	font-size: 35px;
+	padding-left: 20px;
+	color: #E99E12;
+	font-family: helvetica;
+}
+
+.textInteriorTester{
+	display: inline-block;
+	text-align: right;
+	margin-bottom: 40px;
+}
+
+.alignMenu{
+	float: right;
+	margin-right: 5%;
+}
